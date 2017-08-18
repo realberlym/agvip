@@ -16,6 +16,18 @@ function rotas_home(){
 
 	});
 
+	$app->get('/home', function(){
+
+		include_once("home_front.php");
+
+	});
+
+	$app->get('/inicio', function(){
+
+		include_once("home_front.php");
+
+	});
+
 
 	$app->get('/viajens', function(){
 
