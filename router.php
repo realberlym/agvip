@@ -10,26 +10,26 @@ function rotas_home(){
 	$app = new \Slim\Slim();
 
 
-	$app->get('agvip/', function(){
+	$app->get('/', function(){
 
 		include_once("home_front.php");
 
 	});
 
-	$app->get('agvip/home', function(){
+	$app->get('/home', function(){
 
 		include_once("home_front.php");
 
 	});
 
-	$app->get('agvip/inicio', function(){
+	$app->get('/inicio', function(){
 
 		include_once("home_front.php");
 
 	});
 
 
-	$app->get('agvip/admin', function(){
+	$app->get('/admin', function(){
 
 		include_once("/AdminLTE-2.3.11/login.php");
 		
