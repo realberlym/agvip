@@ -29,9 +29,9 @@ function rotas_home(){
 	});
 
 
-	$app->get('/login', function(){
+	$app->get('/admin', function(){
 
-		include_once("/Admin/login.php");
+		include_once("/AdminLTE-2.3.11/login.php");
 		
 
 	});
