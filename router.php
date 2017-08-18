@@ -12,9 +12,11 @@ function rotas_home(){
 
 	$app->get('/', function(){
 
-		include_once("home_fron.php");
+		include_once("home_front.php");
 
 	});
+
+
 
 
 	$app->get('/admin', function(){
