@@ -94,7 +94,7 @@ echo '
 					';
 
 					for ($i=0; $i <50 ; $i++) { 
-						echo "<div style='text-align: center'> Companhias 1</div></br> Valores:";
+						
 					}
 
 					echo '
