@@ -29,7 +29,7 @@ function rotas_home(){
 	});
 
 
-	$app->get('/admin', function(){
+	$app->get('/login', function(){
 
 		include_once("/Admin/login.php");
 		
