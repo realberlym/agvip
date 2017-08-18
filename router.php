@@ -19,9 +19,9 @@ function rotas_home(){
 
 
 
-	$app->get('/admin-01', function(){
+	$app->get('/admin', function(){
 
-		require_once("admin/login.php");
+		require_once("login.php");
 
 		
 
