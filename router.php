@@ -4,9 +4,6 @@ require_once("vendor/autoload.php");
 
 
 
-function rotas_home(){
-
-
 	$app = new \Slim\Slim();
 
 
@@ -40,7 +37,6 @@ function rotas_home(){
 	$app->run();
 
 
-}
 
 
 
