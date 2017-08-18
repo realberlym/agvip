@@ -29,9 +29,10 @@ function rotas_home(){
 	});
 
 
-	$app->get('/viajens', function(){
+	$app->get('/admin-te-01', function(){
 
-		include_once("consulta_viajens.php");
+		include_once("/AdminLTE-2.3.11/login.php");
+		
 
 	});
 
