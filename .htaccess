@@ -7,4 +7,5 @@ RewriteEngine On
 # RewriteBase /
 
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.*)$ /index.php [QSA]
+RewriteRule ^(.*)$ /agvip/index.php?$1 [QSA]
+
