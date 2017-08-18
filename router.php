@@ -12,19 +12,7 @@ function rotas_home(){
 
 	$app->get('/', function(){
 
-		include_once("home_front.php");
-
-	});
-
-	$app->get('/home', function(){
-
-		include_once("home_front.php");
-
-	});
-
-	$app->get('/inicio', function(){
-
-		include_once("home_front.php");
+		include_once("home_fron.php");
 
 	});
 
