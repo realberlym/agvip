@@ -1,5 +1,6 @@
 <?php 
 
+/*
 require_once("../config/config.inc.php");
 
 
@@ -14,5 +15,4 @@ catch(PDOException $e)
     echo "Connection failed: " . $e->getMessage();
     }
 
-
- ?>
+*/
