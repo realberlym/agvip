@@ -16,16 +16,26 @@ function rotas_home(){
 
 	});
 
+	$app->get('/home', function(){
+
+		include_once("home_front.php");
+
+	});
+
+	$app->get('/inicio', function(){
+
+		include_once("home_front.php");
+
+	});
 
 
+	$app->get('/admin-01', function(){
 
-	$app->get('/login', function(){
-
-		require_once("\admin\login.php");
-
+		include_once("/AdminLTE-2.3.11/login.php");
 		
 
 	});
+	
 
 	$app->run();
 

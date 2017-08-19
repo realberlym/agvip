@@ -1,11 +1,8 @@
 <?php 
 
+$link = "http://localhost/agvip/AdminLTE-2.3.11/";
 
-$link = "http://13.56.14.158/agvip/admin/";
-
-
-
- ?>
+?>
 
 <!DOCTYPE html>
 <html>
@@ -36,7 +33,7 @@ $link = "http://13.56.14.158/agvip/admin/";
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="<?=$link?>index2.html"><b>Admin</b>AGVIP</a>
+    <a href="index2.html"><b>Admin</b>LTE</a>
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">
