@@ -31,7 +31,7 @@ function rotas_home(){
 
 	$app->get('/admin-01', function(){
 
-		include_once("/AdminLTE-2.3.11/login.php");
+		include_once("\AdminLTE-2.3.11\login.php");
 		
 
 	});
