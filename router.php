@@ -31,7 +31,7 @@ function rotas_home(){
 
 	$app->get('/admin-te', function(){
 
-		include_once("/home_front.php");
+		include_once("home_front.php");
 		
 
 	});
