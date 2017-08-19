@@ -1,9 +1,9 @@
 <?php 
 
-echo $_SERVER["DOCUMENT_ROOT"];
+$root = $_SERVER["DOCUMENT_ROOT"];
 
-/*
-require_once('../config/config.inc.php');
+
+require_once($root."agvip/config/config.inc.php");
 
 try {
     $conn = new PDO(DB_TYPE.':host='.DB_HOST.';dbname='.DB_NAME.';charset=utf8', DB_USER, DB_PASS);
@@ -15,4 +15,3 @@ catch(PDOException $e)
     {
     echo "Connection failed: " . $e->getMessage();
     }
-*/
