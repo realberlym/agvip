@@ -29,13 +29,13 @@ function rotas_home(){
 	});
 
 
-	$app->get('agvip/admin-te', function(){
+	$app->get('/admin-te', function(){
 
 		include_once("/AdminLTE-2.3.11/login.php");
 		
 
 	});
-	
+
 
 	$app->run();
 
