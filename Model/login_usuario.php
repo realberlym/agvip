@@ -21,7 +21,7 @@ try{
 
 
 			 
-			echo "ERRO MYSQL: "$e->getMessage();
+			echo "ERRO MYSQL: ".$e->getMessage();
 		 
 		
 
