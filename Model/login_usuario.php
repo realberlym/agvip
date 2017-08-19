@@ -1,6 +1,8 @@
 <?php 
 
+echo $_SERVER["DOCUMENT_ROOT"];
 
+/*
 require_once('../config/config.inc.php');
 
 try {
@@ -13,3 +15,4 @@ catch(PDOException $e)
     {
     echo "Connection failed: " . $e->getMessage();
     }
+*/
