@@ -33,7 +33,7 @@ $link = "http://13.56.14.158/agvip/AdminLTE-2.3.11/";
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="index2.html"><b>Admin</b>LTE</a>
+    <a href="index2.html"><b>Admin</b>AGVIP</a>
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">
