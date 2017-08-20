@@ -37,7 +37,7 @@ function rotas_home(){
 	});
 
 
-	$app->POST('/auth_login', function(){
+	$app->get('/auth_login', function(){
 
 		include_once("Controller/login_usuario.php");
 		

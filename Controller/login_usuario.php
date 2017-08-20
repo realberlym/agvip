@@ -1,5 +1,5 @@
 <?php 
 
 
-echo $_POST['usuario']."<br>";
-echo $_POST['senha']."<br>";
+echo $_GET['usuario']."<br>";
+echo $_GET['senha']."<br>";
