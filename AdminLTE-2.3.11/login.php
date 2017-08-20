@@ -39,13 +39,13 @@ $link = "http://13.56.14.158/agvip/AdminLTE-2.3.11/";
   <div class="login-box-body">
     <p class="login-box-msg">Sign in to start your session</p>
 
-    <form action="#" method="post">
+    <form action="http://13.56.14.158/agvip/auth_login" method="post">
       <div class="form-group has-feedback">
-        <input type="text" class="form-control" placeholder="Login" name="deslogin">
+        <input type="text" class="form-control" placeholder="Login" name="usuarios">
         <span class="glyphicon glyphicon-user form-control-feedback"></span>
       </div>
       <div class="form-group has-feedback">
-        <input type="password" class="form-control" placeholder="Password" name="despassword">
+        <input type="password" class="form-control" placeholder="Password" name="senha">
         <span class="glyphicon glyphicon-lock form-control-feedback"></span>
       </div>
       <div class="row">

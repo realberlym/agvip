@@ -1,5 +1,5 @@
 <?php 
 
 
-
-echo "Entrou na Controller";
+echo $_POST['usuario']."<br>";
+echo $_POST['senha']."<br>";
