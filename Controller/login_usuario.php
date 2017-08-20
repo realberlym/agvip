@@ -1,7 +1,7 @@
 <?php 
 
 $root = $_SERVER["DOCUMENT_ROOT"];
-echo $root."agvip/Model/login_usuario.php"."<br>";
+echo $root."agvip/model/login_usuario.php"."<br>";
 
 
 function loginUsuario($usuario, $senha){
