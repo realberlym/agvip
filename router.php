@@ -39,7 +39,7 @@ function rotas_home(){
 
 	$app->post('/auth_login', function(){
 
-		echo "Eu sou um post";
+		echo "Eu sou um post". $_POST['senha'];
 		
 	});
 
