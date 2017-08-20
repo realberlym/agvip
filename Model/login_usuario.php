@@ -4,7 +4,9 @@ $root = $_SERVER["DOCUMENT_ROOT"];
 
 require_once($root."agvip/config/config.inc.php");
 
-try{
+function($senha_post){
+
+	try{
 
 			$mysql = new PDO(DB_TYPE.':host='.DB_HOST.';dbname='.DB_NAME.';charset=utf8', DB_USER, DB_PASSWORD);
 			$mysql->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -16,7 +18,7 @@ try{
 
 			$senha = $resultado_row[0]['senha'];
 
-			echo $senha;
+			password_verify($)
 		
 
 	}catch(PDOException $e){
@@ -31,3 +33,8 @@ try{
 
 
 	}
+
+
+}
+
+	

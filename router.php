@@ -37,9 +37,9 @@ function rotas_home(){
 	});
 
 
-	$app->get('/db', function(){
+	$app->get('/auth_login', function(){
 
-		include_once("Model/login_usuario.php");
+		include_once("Controller/login_usuario.php");
 		
 
 	});
