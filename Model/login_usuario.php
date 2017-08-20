@@ -5,8 +5,6 @@ require_once($root."agvip/config/config.inc.php");
 
 function loginModel($senha_post, $usuario_post){
 
-	echo $usuario_post;
-	die('');
 
 	try{
 
