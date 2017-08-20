@@ -3,6 +3,8 @@
 $root = $_SERVER["DOCUMENT_ROOT"];
 require_once($root."agvip/config/config.inc.php");
 
+die('Tabom');
+
 function loginModel($senha_post, $usuario_post){
 
 
@@ -18,7 +20,7 @@ function loginModel($senha_post, $usuario_post){
 
 			$senha = $resultado_row[0]['senha'];
 
-			password_verify($)
+			password_verify($senha_post, $senha);
 		
 
 	}catch(PDOException $e){
