@@ -3,6 +3,8 @@
 require_once("vendor/autoload.php");
 
 
+include_once("Controller/login_usuario.php");
+
 
 function rotas_home(){
 
@@ -39,7 +41,11 @@ function rotas_home(){
 
 	$app->post('/auth_login', function(){
 
-		echo "Eu sou um post". $_POST['senha'];
+
+		$usuario = $_POST['usuario'];
+		$senha = $_POST['senha'];
+
+		loginUsuario($usuario, $senha);
 		
 	});
 

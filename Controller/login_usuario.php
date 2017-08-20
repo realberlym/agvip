@@ -1,5 +1,12 @@
 <?php 
 
 
-echo $_POST['usuario']."<br>";
-echo $_POST['senha']."<br>";
+function loginUsuario($usuario, $senha){
+
+
+	echo $usuario."<br>";
+	echo $senha."<br>";
+
+
+}
+
