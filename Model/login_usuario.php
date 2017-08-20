@@ -14,7 +14,9 @@ try{
 			$stmt->execute();
 			$resultado_row = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-			print_r($resultado_row);
+			$senha = $resultado_row[0]['senha'];
+
+			echo $senha;
 		
 
 	}catch(PDOException $e){

@@ -1,7 +1,7 @@
 <?php
 
 
-
+// CONFIG DE SERVIDOR AMAZON PRODUÇÃO
 define('DB_TYPE', 'mysql');
 define('DB_NAME', 'agvip');
 define('DB_USER', 'root');
