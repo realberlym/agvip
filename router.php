@@ -41,7 +41,6 @@ function rotas_home(){
 
 		include_once("Controller/login_usuario.php");
 		
-
 	});
 
 
