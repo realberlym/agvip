@@ -16,7 +16,7 @@ function loginModel($usuario, $senha){
 			$sql = "SELECT * FROM usuario where email = '$usuario' and senha = md5('$senha')";
 			$stmt = $mysql->prepare($sql);
 			$stmt->execute();
-			$resultado_row = $stmt->fetchAll(PDO::FETCH_ASSOC);
+			$resultado_row = $stmt->fetchAll();
 			
 			die($resultado_row);
 
