@@ -18,11 +18,6 @@ function loginModel($usuario, $senha){
 			$stmt->execute();
 			$resultado_row = $stmt->rowCount();
 
-
-			echo $resultado_row;
-		
-			die('');
-
 			if(!empty($senha_result)){
 
 				echo "Entrou";
