@@ -19,11 +19,16 @@ function loginModel($usuario, $senha){
 			$resultado_row = $stmt->fetchAll(PDO::FETCH_ASSOC);
 			$senha_result = $resultado_row[0]['senha'];
 
-			echo $senha_result;
-			die('');
-			password_verify($senha, $senha_result);
+			if(password_verify($senha, $senha_result)){
+
+				echo "Entrou";
+			}else{
+
+				echo "Não é a Senha";
+			}
 			
-			echo "Entrou";
+			
+			
 
 	}catch(PDOException $e){
 
