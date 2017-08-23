@@ -1,12 +1,12 @@
 <?php 
-
+/*
 $root = $_SERVER["DOCUMENT_ROOT"];
 require_once($root."agvip/config/config.inc.php");
+*/
 
+function loginModel($usuario, $senha){
 
-function loginModel($senha_post, $usuario_post){
-
-echo $usuario_post;
+echo $usuario;
 
 /*
 	try{
