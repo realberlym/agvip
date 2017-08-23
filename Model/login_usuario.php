@@ -19,7 +19,9 @@ function loginModel($usuario, $senha){
 			$resultado_row = $stmt->rowCount();
 
 
-			die($resultado_row);
+			echo $resultado_row;
+			print_r($resultado_row);
+			die('');
 
 			if(!empty($senha_result)){
 
