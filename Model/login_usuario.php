@@ -3,13 +3,12 @@
 $root = $_SERVER["DOCUMENT_ROOT"];
 require_once($root."agvip/config/config.inc.php");
 
-echo "Entrei aqui";
-
-die('');
 
 function loginModel($senha_post, $usuario_post){
 
+echo $usuario_post;
 
+/*
 	try{
 
 			$mysql = new PDO(DB_TYPE.':host='.DB_HOST.';dbname='.DB_NAME.';charset=utf8', DB_USER, DB_PASSWORD);
@@ -38,7 +37,7 @@ function loginModel($senha_post, $usuario_post){
 
 	}
 
-
+*/
 }
 
 	
