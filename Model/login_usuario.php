@@ -20,7 +20,7 @@ function loginModel($usuario, $senha){
 
 
 			echo $resultado_row;
-			print_r($resultado_row);
+		
 			die('');
 
 			if(!empty($senha_result)){
