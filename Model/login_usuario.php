@@ -18,9 +18,10 @@ function loginModel($usuario, $senha){
 			$stmt->execute();
 			$resultado_row = $stmt->rowCount();
 
-			if(!empty($senha_result)){
+			if($resultado_row == 1){
 
 				echo "Entrou";
+				
 			}else{
 
 				echo "Não entrou";
