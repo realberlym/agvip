@@ -18,7 +18,7 @@ function loginUsuario($usuario, $senha){
 
 	}else{
 		
-		header("Location: redirecionado.php");
+		include_once("AdminLTE-2.3.11/login.php");
 		
 	}
 
