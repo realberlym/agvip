@@ -17,12 +17,10 @@ function loginModel($usuario, $senha){
 			$stmt = $mysql->prepare($sql);
 			$stmt->execute();
 			$resultado_row = $stmt->fetchAll(PDO::FETCH_ASSOC);
-
-			print_r($resultado_row);
-			die('');
-
 			$senha_result = $resultado_row[0]['senha'];
 
+			echo $senha_result;
+			die('');
 			password_verify($senha, $senha_result);
 			
 			echo "Entrou";
