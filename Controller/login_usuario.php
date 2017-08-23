@@ -18,9 +18,10 @@ function loginUsuario($usuario, $senha){
 
 	}else{
 		
-		
-		header("Location: ".$_SERVER['HTTP_HOST']."/admin-te");
+		echo "Eu entrei aqui";
 
+		/*header("Location: ".$_SERVER['HTTP_HOST']."/admin-te");
+		*/
 	}
 
 }
