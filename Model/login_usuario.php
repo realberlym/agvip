@@ -16,8 +16,9 @@ function loginModel($usuario, $senha){
 			$sql = "SELECT * FROM usuario where email = '$usuario' and senha = md5('$senha')";
 			$stmt = $mysql->prepare($sql);
 			$stmt->execute();
-			$resultado_row = $stmt->rowCount();
-			
+			$resultado_row = $stmt->fetch();
+
+
 			die($resultado_row);
 
 			if(!empty($senha_result)){
