@@ -9,7 +9,15 @@ function loginUsuario($usuario, $senha){
 	
 	$result = loginModel($usuario, $senha);
 	
-	echo $result;
+	
+	if($result == 1){
+
+		echo "Entrou";
+
+	}else{
+
+		echo "Não Entrou";
+	}
 
 }
 
