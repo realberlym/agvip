@@ -6,23 +6,23 @@ require_once($root."agvip/config/config.inc.php");
 
 function loginModel($usuario, $senha){
 
-echo $usuario;
 
-/*
+
 	try{
 
 			$mysql = new PDO(DB_TYPE.':host='.DB_HOST.';dbname='.DB_NAME.';charset=utf8', DB_USER, DB_PASSWORD);
 			$mysql->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-			$sql = "SELECT * FROM agvip.usuario where nome = '$usuario_post'";
+			$sql = "SELECT * FROM agvip.usuario where nome = '$usuario'";
 			$stmt = $mysql->prepare($sql);
 			$stmt->execute();
 			$resultado_row = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-			$senha = $resultado_row[0]['senha'];
+			$senha_result = $resultado_row[0]['senha'];
 
-			password_verify($senha_post, $senha);
-		
+			password_verify($senha, $senha_result);
+			
+			echo "Entrou";
 
 	}catch(PDOException $e){
 
@@ -37,7 +37,7 @@ echo $usuario;
 
 	}
 
-*/
+
 }
 
 	
