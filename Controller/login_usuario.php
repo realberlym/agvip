@@ -18,8 +18,9 @@ function loginUsuario($usuario, $senha){
 
 	}else{
 		
-		
-		header("Location: ".$_SERVER['HTTP_HOST']."/agvip/admin-te");
+		echo $_SERVER['HTTP_HOST']."/agvip/admin-te" ;
+
+		#header("Location: ".$_SERVER['HTTP_HOST']."/agvip/admin-te");
 		
 	}
 
