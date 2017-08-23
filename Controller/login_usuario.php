@@ -12,12 +12,16 @@ function loginUsuario($usuario, $senha){
 	
 	if($result == 1){
 
-		echo "Entrou";
+		session_start();
+
+		$_SESSION['logado'] = 1 ;
 
 	}else{
+		
+		session_destroy();
 
-		echo "Não Entrou";
+		header("Location: ".$_SERVER['HTTP_HOST']."/admin-te");
+
 	}
 
 }
-
