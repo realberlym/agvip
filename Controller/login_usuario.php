@@ -16,7 +16,7 @@ function loginUsuario($usuario, $senha){
 
 		$_SESSION['logado'] = 1 ;
 
-		echo "Entrou no sistema";
+		include_once("AdminLTE-2.3.11/index.php");
 
 	}else{
 		
