@@ -13,7 +13,8 @@ function loginModel($usuario, $senha){
 			$mysql = new PDO(DB_TYPE.':host='.DB_HOST.';dbname='.DB_NAME.';charset=utf8', DB_USER, DB_PASSWORD);
 			$mysql->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-			$sql = "SELECT * FROM agvip.usuario where nome = '$usuario'";
+			$sql = "SELECT * FROM usuario where nome = '$usuario'";
+			die($sql);
 			$stmt = $mysql->prepare($sql);
 			$stmt->execute();
 			$resultado_row = $stmt->fetchAll(PDO::FETCH_ASSOC);
