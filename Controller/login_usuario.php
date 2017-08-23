@@ -18,8 +18,7 @@ function loginUsuario($usuario, $senha){
 
 	}else{
 		
-		session_destroy();
-
+		
 		header("Location: ".$_SERVER['HTTP_HOST']."/admin-te");
 
 	}
