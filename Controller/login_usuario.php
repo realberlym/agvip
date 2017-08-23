@@ -6,12 +6,10 @@ include_once($root."agvip/Model/login_usuario.php");
 
 function loginUsuario($usuario, $senha){
 
-	/*echo $usuario."<br>";
-	echo $senha."<br>";
-	*/
 	
-	loginModel($usuario, $senha);
+	$result = loginModel($usuario, $senha);
 	
-	
+	echo $result;
+
 }
 

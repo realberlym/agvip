@@ -18,15 +18,7 @@ function loginModel($usuario, $senha){
 			$stmt->execute();
 			$resultado_row = $stmt->rowCount();
 
-			if($resultado_row == 1){
-
-				echo "Entrou";
-				
-			}else{
-
-				echo "Não entrou";
-			}
-			
+						
 
 	}catch(PDOException $e){
 
@@ -41,6 +33,7 @@ function loginModel($usuario, $senha){
 
 	}
 
+	return $resultado_row;
 
 }
 
