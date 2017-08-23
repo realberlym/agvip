@@ -18,8 +18,7 @@ function loginUsuario($usuario, $senha){
 
 	}else{
 		
-		
-		header('Location: http://13.56.14.158/agvip/admin-te');
+		header("Location: redirecionado.php");
 		
 	}
 
