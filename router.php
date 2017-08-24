@@ -51,12 +51,11 @@ function rotas_home(){
 
 	$app->get('/logout', function(){
 
+		session_start();
 		
-		session_destroy();
-		
-		include_once("AdminLTE-2.3.11/login.php");
+		$_SESSION['logado'] = 0 ;
 
-		
+		include_once("AdminLTE-2.3.11/login.php");
 
 
 	});
