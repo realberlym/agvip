@@ -64,7 +64,7 @@ $link = "http://13.56.14.158/agvip/AdminLTE-2.3.11/";
       </div>
     </form>
 
-    <div class="social-auth-links text-center">
+  <!--  <div class="social-auth-links text-center">
       <p>- OR -</p>
       <a href="#" class="btn btn-block btn-social btn-facebook btn-flat"><i class="fa fa-facebook"></i> Sign in using
         Facebook</a>
