@@ -65,7 +65,12 @@ function rotas_home(){
 	//ROTA DE LOGIN
 	$app->post('/auth_login', function(){
 
+		if($_SESSION['logado'] == 1){
 
+			include_once("AdminLTE-2.3.11/index.php");
+
+		}
+		
 		$usuario = $_POST['usuario'];
 		$senha = $_POST['senha'];
 
