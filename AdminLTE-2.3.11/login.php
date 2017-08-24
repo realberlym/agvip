@@ -73,8 +73,7 @@ $link = "http://13.56.14.158/agvip/AdminLTE-2.3.11/";
     </div>
     <!-- /.social-auth-links -->
 
-    <a href="#">I forgot my password</a><br>
-    <a href="register.html" class="text-center">Register a new membership</a>
+    <a href="#">Esqueci minha senha</a><br>
 
   </div>
   <!-- /.login-box-body -->
