@@ -9,6 +9,8 @@ if($_SESSION['logado'] == 1){
   header('Location: index.php');
 }
 
+echo $_SESSION['logado'];
+
 ?>
 
 <!DOCTYPE html>
