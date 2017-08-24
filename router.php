@@ -35,16 +35,18 @@ function rotas_home(){
 
 		session_start();
 
-		var_dump($_SESSION['logado']);
-		#if($_SESSION['logado'] === 1){
+
+		if($_SESSION['logado'] === 1){
 
 		 # include_once("AdminLTE-2.3.11/index.php");
 
-		#}else{
+			echo "Entrou";
 
-		  
+		}else{
+
+		  	echo "Saiu";
 		  //include_once("AdminLTE-2.3.11/login.php");
-		#}
+		}
 
 		
 	});
