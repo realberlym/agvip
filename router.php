@@ -56,7 +56,7 @@ function rotas_home(){
 		
 		$_SESSION['logado'] = 0 ;
 
-		include_once("AdminLTE-2.3.11/index.php");
+		include_once("AdminLTE-2.3.11/login.php");
 
 
 	});
