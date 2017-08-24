@@ -34,7 +34,7 @@ function rotas_home(){
 	$app->get('/admin-te', function(){
 
 		session_start();
-
+		
 
 		if($_SESSION['logado'] === 1){
 
@@ -46,8 +46,6 @@ function rotas_home(){
 		}
 
 		
-		
-
 	});
 
 	$app->get('/logout', function(){
