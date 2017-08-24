@@ -4,12 +4,11 @@ $link = "http://13.56.14.158/agvip/AdminLTE-2.3.11/";
 
 session_start();
 
-if($_SESSION['logado'] == 1){
+if($_SESSION['logado'] === 1){
 
-  header('Location: index.php');
+  include_once("AdminLTE-2.3.11/index.php");
 }
 
-echo $_SESSION['logado'];
 
 ?>
 
