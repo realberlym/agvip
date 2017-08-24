@@ -44,8 +44,8 @@ function rotas_home(){
 
 		}else{
 
-		  	echo "Saiu";
-		  //include_once("AdminLTE-2.3.11/login.php");
+		  	
+		  include_once("AdminLTE-2.3.11/login.php");
 		}
 
 		
