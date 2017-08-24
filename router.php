@@ -35,15 +35,15 @@ function rotas_home(){
 
 		session_start();
 
-		if($_SESSION['logado'] === 1){
+		#if($_SESSION['logado'] === 1){
 
-		  include_once("AdminLTE-2.3.11/index.php");
+		 # include_once("AdminLTE-2.3.11/index.php");
 
-		}else{
+		#}else{
 
 		  echo $_SESSION['logado'] = 0;
 		  //include_once("AdminLTE-2.3.11/login.php");
-		}
+		#}
 
 		
 	});
