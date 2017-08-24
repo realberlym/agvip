@@ -791,7 +791,7 @@ $link = "http://13.56.14.158/agvip/AdminLTE-2.3.11/";
                         <span class="direct-chat-timestamp pull-right">23 Jan 2:00 pm</span>
                       </div>
                       <!-- /.direct-chat-info -->
-                      <img class="direct-chat-img" src="dist/img/user1-128x128.jpg" alt="message user image"><!-- /.direct-chat-img -->
+                      <img class="direct-chat-img" src="<?=$link?>dist/img/user1-128x128.jpg" alt="message user image"><!-- /.direct-chat-img -->
                       <div class="direct-chat-text">
                         Is this template really for free? That's unbelievable!
                       </div>
@@ -806,7 +806,7 @@ $link = "http://13.56.14.158/agvip/AdminLTE-2.3.11/";
                         <span class="direct-chat-timestamp pull-left">23 Jan 2:05 pm</span>
                       </div>
                       <!-- /.direct-chat-info -->
-                      <img class="direct-chat-img" src="dist/img/user3-128x128.jpg" alt="message user image"><!-- /.direct-chat-img -->
+                      <img class="direct-chat-img" src="<?=$link?>dist/img/user3-128x128.jpg" alt="message user image"><!-- /.direct-chat-img -->
                       <div class="direct-chat-text">
                         You better believe it!
                       </div>
@@ -821,7 +821,7 @@ $link = "http://13.56.14.158/agvip/AdminLTE-2.3.11/";
                         <span class="direct-chat-timestamp pull-right">23 Jan 5:37 pm</span>
                       </div>
                       <!-- /.direct-chat-info -->
-                      <img class="direct-chat-img" src="dist/img/user1-128x128.jpg" alt="message user image"><!-- /.direct-chat-img -->
+                      <img class="direct-chat-img" src="<?=$link?>dist/img/user1-128x128.jpg" alt="message user image"><!-- /.direct-chat-img -->
                       <div class="direct-chat-text">
                         Working with AdminLTE on a great new app! Wanna join?
                       </div>
@@ -836,7 +836,7 @@ $link = "http://13.56.14.158/agvip/AdminLTE-2.3.11/";
                         <span class="direct-chat-timestamp pull-left">23 Jan 6:10 pm</span>
                       </div>
                       <!-- /.direct-chat-info -->
-                      <img class="direct-chat-img" src="dist/img/user3-128x128.jpg" alt="message user image"><!-- /.direct-chat-img -->
+                      <img class="direct-chat-img" src="<?=$link?>dist/img/user3-128x128.jpg" alt="message user image"><!-- /.direct-chat-img -->
                       <div class="direct-chat-text">
                         I would love to.
                       </div>
@@ -1266,7 +1266,7 @@ $link = "http://13.56.14.158/agvip/AdminLTE-2.3.11/";
               <ul class="products-list product-list-in-box">
                 <li class="item">
                   <div class="product-img">
-                    <img src="dist/img/default-50x50.gif" alt="Product Image">
+                    <img src="<?=$link?>dist/img/default-50x50.gif" alt="Product Image">
                   </div>
                   <div class="product-info">
                     <a href="javascript:void(0)" class="product-title">Samsung TV
@@ -1279,7 +1279,7 @@ $link = "http://13.56.14.158/agvip/AdminLTE-2.3.11/";
                 <!-- /.item -->
                 <li class="item">
                   <div class="product-img">
-                    <img src="dist/img/default-50x50.gif" alt="Product Image">
+                    <img src="<?=$link?>dist/img/default-50x50.gif" alt="Product Image">
                   </div>
                   <div class="product-info">
                     <a href="javascript:void(0)" class="product-title">Bicycle
@@ -1537,25 +1537,25 @@ $link = "http://13.56.14.158/agvip/AdminLTE-2.3.11/";
 <!-- ./wrapper -->
 
 <!-- jQuery 2.2.3 -->
-<script src="plugins/jQuery/jquery-2.2.3.min.js"></script>
+<script src="<?=$link?>plugins/jQuery/jquery-2.2.3.min.js"></script>
 <!-- Bootstrap 3.3.6 -->
-<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="<?=$link?>bootstrap/js/bootstrap.min.js"></script>
 <!-- FastClick -->
-<script src="plugins/fastclick/fastclick.js"></script>
+<script src="<?=$link?>plugins/fastclick/fastclick.js"></script>
 <!-- AdminLTE App -->
-<script src="dist/js/app.min.js"></script>
+<script src="<?=$link?>dist/js/app.min.js"></script>
 <!-- Sparkline -->
-<script src="plugins/sparkline/jquery.sparkline.min.js"></script>
+<script src="<?=$link?>plugins/sparkline/jquery.sparkline.min.js"></script>
 <!-- jvectormap -->
-<script src="plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
-<script src="plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+<script src="<?=$link?>plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+<script src="<?=$link?>plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
 <!-- SlimScroll 1.3.0 -->
-<script src="plugins/slimScroll/jquery.slimscroll.min.js"></script>
+<script src="<?=$link?>plugins/slimScroll/jquery.slimscroll.min.js"></script>
 <!-- ChartJS 1.0.1 -->
-<script src="plugins/chartjs/Chart.min.js"></script>
+<script src="<?=$link?>plugins/chartjs/Chart.min.js"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="dist/js/pages/dashboard2.js"></script>
+<script src="<?=$link?>dist/js/pages/dashboard2.js"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="dist/js/demo.js"></script>
+<script src="<?=$link?>dist/js/demo.js"></script>
 </body>
 </html>
