@@ -285,7 +285,7 @@ $host = "http://13.56.14.158";
                   <a href="#" class="btn btn-default btn-flat">Profile</a>
                 </div>
                 <div class="pull-right">
-                  <a href="http://<?=$host?>/agvip/logout" class="btn btn-default btn-flat">Sair</a>
+                  <a href="<?=$host?>/agvip/logout" class="btn btn-default btn-flat">Sair</a>
                 </div>
               </li>
             </ul>
