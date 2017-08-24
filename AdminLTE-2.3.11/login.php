@@ -37,15 +37,15 @@ $link = "http://13.56.14.158/agvip/AdminLTE-2.3.11/";
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">
-    <p class="login-box-msg">Sign in to start your session</p>
+    <p class="login-box-msg">Entre com seu e-mail para acessar o painel Adm</p>
 
     <form action="http://13.56.14.158/agvip/auth_login" method="POST">
       <div class="form-group has-feedback">
-        <input type="text" class="form-control" placeholder="Login" name="usuario">
+        <input type="text" class="form-control" placeholder="E-mail" name="usuario">
         <span class="glyphicon glyphicon-user form-control-feedback"></span>
       </div>
       <div class="form-group has-feedback">
-        <input type="password" class="form-control" placeholder="Password" name="senha">
+        <input type="password" class="form-control" placeholder="Senha" name="senha">
         <span class="glyphicon glyphicon-lock form-control-feedback"></span>
       </div>
       <div class="row">
@@ -58,7 +58,7 @@ $link = "http://13.56.14.158/agvip/AdminLTE-2.3.11/";
         </div>
         <!-- /.col -->
         <div class="col-xs-4">
-          <button type="submit" class="btn btn-primary btn-block btn-flat">Sign In</button>
+          <button type="submit" class="btn btn-primary btn-block btn-flat">Entrar</button>
         </div>
         <!-- /.col -->
       </div>
