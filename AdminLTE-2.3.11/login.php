@@ -10,6 +10,8 @@ if($_SESSION['logado'] === 1){
 
 }else{
 
+  session_destroy();
+
   include_once("AdminLTE-2.3.11/login.php");
 }
 
