@@ -34,7 +34,6 @@ function rotas_home(){
 	$app->get('/admin-te', function(){
 
 		session_start();
-		
 
 		if($_SESSION['logado'] === 1){
 
@@ -42,6 +41,7 @@ function rotas_home(){
 
 		}else{
 
+		  $_SESSION['logado'] = 0;
 		  include_once("AdminLTE-2.3.11/login.php");
 		}
 
