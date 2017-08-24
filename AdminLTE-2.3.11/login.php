@@ -9,11 +9,11 @@ if($_SESSION['logado'] === 1){
   include_once("AdminLTE-2.3.11/index.php");
 
 }else{
-
-  session_destroy();
-
-  include_once("AdminLTE-2.3.11/login.php");
+  
+  $_SESSION['logado'] = 0 ;
+  
 }
+
 
 
 ?>
