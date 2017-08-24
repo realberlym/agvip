@@ -284,7 +284,7 @@ $link = "http://13.56.14.158/agvip/AdminLTE-2.3.11/";
                   <a href="#" class="btn btn-default btn-flat">Profile</a>
                 </div>
                 <div class="pull-right">
-                  <a href="<?=  session_destroy();?>" class="btn btn-default btn-flat">Sair</a>
+                  <a href="#" class="btn btn-default btn-flat">Sair</a>
                 </div>
               </li>
             </ul>
