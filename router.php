@@ -3,10 +3,6 @@
 require_once("vendor/autoload.php");
 include_once("Controller/login_usuario.php");
 
-session_start();
-
-$_SESSION['logado'] = 0;
-
 
 function rotas_home(){
 
@@ -37,7 +33,9 @@ function rotas_home(){
 	//ROTA DE PAGINA ADMIN
 	$app->get('/admin-te', function(){
 
-		
+		session_start();
+
+		$_SESSION['logado'] = 0;
 
 		if($_SESSION['logado'] === 1){
 
