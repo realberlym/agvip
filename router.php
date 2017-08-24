@@ -44,6 +44,7 @@ function rotas_home(){
 
 		}else{
 
+		  	
 		  include_once("AdminLTE-2.3.11/login.php");
 		}
 
@@ -72,25 +73,6 @@ function rotas_home(){
 		loginUsuario($usuario, $senha);
 		
 	});
-
-	$app->post('/admin', function(){
-
-		if($_SESSION['logado'] == 1){
-
-			session_start();
-
-			include_once("AdminLTE-2.3.11/index.php");
-
-		}else{
-
-			include_once("AdminLTE-2.3.11/login.php");
-		}
-
-		
-		
-	});
-
-
 
 
 	$app->run();

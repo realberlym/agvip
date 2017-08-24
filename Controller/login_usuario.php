@@ -16,7 +16,7 @@ function loginUsuario($usuario, $senha){
 
 		$_SESSION['logado'] = 1 ;
 
-		include_once("http://13.56.14.158/agvip/admin");
+		include_once("AdminLTE-2.3.11/index.php");
 
 	}else{
 		
