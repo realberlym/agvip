@@ -33,6 +33,7 @@ function rotas_home(){
 	//ROTA DE PAGINA ADMIN
 	$app->get('/admin-te', function(){
 
+		session_start();
 
 		if($_SESSION['logado'] === 1){
 
