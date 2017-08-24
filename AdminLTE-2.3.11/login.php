@@ -37,7 +37,7 @@ $link = "http://13.56.14.158/agvip/AdminLTE-2.3.11/";
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">
-    <p class="login-box-msg">Entre com seu e-mail para acessar o Sistema</p>
+    <p class="login-box-msg">Entre com seu e-mail</p>
 
     <form action="http://13.56.14.158/agvip/auth_login" method="POST">
       <div class="form-group has-feedback">
