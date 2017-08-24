@@ -33,18 +33,8 @@ function rotas_home(){
 	//ROTA DE PAGINA ADMIN
 	$app->get('/admin-te', function(){
 
-		session_start();
-
-		if($_SESSION['logado'] == 1){
-
-			include_once("AdminLTE-2.3.11/index.php");
-
-		}else{
-
-			include_once("AdminLTE-2.3.11/login.php");
-		}
-
-		
+	
+		include_once("AdminLTE-2.3.11/login.php");
 		
 
 	});
