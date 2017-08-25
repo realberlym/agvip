@@ -2,6 +2,8 @@
 
 $link = "http://13.56.14.158/agvip/AdminLTE-2.3.11/";
 
+session_start();
+
 ?>
 
 <!DOCTYPE html>
@@ -31,6 +33,7 @@ $link = "http://13.56.14.158/agvip/AdminLTE-2.3.11/";
   <![endif]-->
 </head>
 <body class="hold-transition login-page">
+<?=$_SESSION['alert']?>
 <div class="login-box">
   <div class="login-logo">
     <a href="index2.html"><b>Admin</b>AGVIP</a>
