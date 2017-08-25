@@ -35,6 +35,8 @@ function rotas_home(){
 
 		session_start();
 
+		var_dump($_SESSION['logado']);
+
 		if(!isset($_SESSION['logado']) or $_SESSION['logado'] === 0){
 
 		  include_once("AdminLTE-2.3.11/index.php");
