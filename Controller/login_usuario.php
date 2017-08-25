@@ -24,7 +24,7 @@ function loginUsuario($usuario, $senha){
 
 		$_SESSION['alert'] = "<div class='alert alert-danger'>
 							    <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
-							  </div>"
+							  </div>";
 		
 		include_once("AdminLTE-2.3.11/login.php");
 		
