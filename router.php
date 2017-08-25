@@ -41,6 +41,7 @@ function rotas_home(){
 
 
 		}else{
+
 		  	
 		  include_once("AdminLTE-2.3.11/login.php");
 		}
@@ -50,9 +51,7 @@ function rotas_home(){
 
 	$app->get('/logout', function(){
 
-		session_start();
-		
-		$_SESSION['logado'] = 0 ;
+		session_destroy();
 
 		include_once("AdminLTE-2.3.11/login.php");
 
