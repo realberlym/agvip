@@ -20,12 +20,10 @@ function loginUsuario($usuario, $senha){
 
 	}else{
 
-		session_start();
 
 		$_SESSION['alert'] = "<div class='alert alert-danger'>
-							    <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
+							    <strong>Alerta!</strong> Senha ou Usuario Incorretos !!
 							  </div>";
-	
 		
 		include_once("AdminLTE-2.3.11/login.php");
 		
