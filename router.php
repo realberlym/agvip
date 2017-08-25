@@ -39,12 +39,15 @@ function rotas_home(){
 
 		if(!isset($_SESSION['logado']) or $_SESSION['logado'] === 0){
 
-		  include_once("AdminLTE-2.3.11/index.php");
+		  include_once("AdminLTE-2.3.11/login.php");
+		  
 
-
+		}elseif ($_SESSION['logado'] == 1) {
+			
+			include_once("AdminLTE-2.3.11/index.php");
 		}
 
-		  include_once("AdminLTE-2.3.11/login.php");
+		  
 
 		
 	});
