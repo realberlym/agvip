@@ -33,7 +33,6 @@ session_start();
   <![endif]-->
 </head>
 <body class="hold-transition login-page">
-<?=$_SESSION['alert']?>
 <div class="login-box">
   <div class="login-logo">
     <a href="index2.html"><b>Admin</b>AGVIP</a>
