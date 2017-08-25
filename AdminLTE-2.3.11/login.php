@@ -34,7 +34,7 @@ $link = "http://13.56.14.158/agvip/AdminLTE-2.3.11/";
 <body class="hold-transition login-page">
 
 <?php 
-echo $_SESSION['alert'];
+echo $_SESSION['alert'] = "";
  ?>
 
 <div class="login-box">
