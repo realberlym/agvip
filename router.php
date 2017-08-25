@@ -66,6 +66,7 @@ function rotas_home(){
 	//ROTA DE LOGIN
 	$app->post('/auth_login', function(){
 
+		$_SESSION['alert'] = "";
 
 		$usuario = $_POST['usuario'];
 		$senha = $_POST['senha'];
