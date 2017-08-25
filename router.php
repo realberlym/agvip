@@ -35,6 +35,7 @@ function rotas_home(){
 
 		session_start();
 
+		$_SESSION['alert'] = "";
 
 		if(!isset($_SESSION['logado']) or $_SESSION['logado'] === 0){
 
