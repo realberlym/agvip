@@ -37,6 +37,12 @@ function rotas_home(){
 
 		if(!isset($_SESSION['logado'])){
 
+		  if($_SESSION['logado'] == 0){
+
+		  	include_once("AdminLTE-2.3.11/login.php");
+
+		  }	
+		  
 		  include_once("AdminLTE-2.3.11/index.php");
 
 
@@ -51,7 +57,9 @@ function rotas_home(){
 
 	$app->get('/logout', function(){
 
-		session_destroy();
+		session_start();
+		
+		$_SESSION['logado'] = 0 ;
 
 		include_once("AdminLTE-2.3.11/login.php");
 
