@@ -2,7 +2,6 @@
 
 $link = "http://13.56.14.158/agvip/AdminLTE-2.3.11/";
 
-session_destroy();
 
 ?>
 
@@ -33,11 +32,9 @@ session_destroy();
   <![endif]-->
 </head>
 <body class="hold-transition login-page">
-<?php 
 
-echo $_SESSION['alert'];
 
- ?>
+
 <div class="login-box">
   <div class="login-logo">
     <a href="index2.html"><b>Admin</b>AGVIP</a>
