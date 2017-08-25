@@ -71,6 +71,7 @@ function rotas_home(){
 		$senha = $_POST['senha'];
 
 		loginUsuario($usuario, $senha);
+
 		
 	});
 
