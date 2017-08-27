@@ -1,8 +1,8 @@
 <?php 
+
 include_once('AdminLTE-2.3.11/index.php');
 
-
-echo '    <div class="container">
+echo '<div class="container">
   <h2>Hover Rows</h2>
   <p>The .table-hover class enables a hover state on table rows:</p>            
   <table class="table table-hover">

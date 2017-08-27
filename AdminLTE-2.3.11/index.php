@@ -3,10 +3,7 @@
 $link = "http://13.56.14.158/agvip/AdminLTE-2.3.11/";
 $host = "http://13.56.14.158";
 
-
-
-
-echo '
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,21 +13,21 @@ echo '
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
-  <link rel="stylesheet" href="'.$link.'bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="<?=$link?>bootstrap/css/bootstrap.min.css">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
   <!-- jvectormap -->
-  <link rel="stylesheet" href="'.$link.'plugins/jvectormap/jquery-jvectormap-1.2.2.css">
+  <link rel="stylesheet" href="<?=$link?>plugins/jvectormap/jquery-jvectormap-1.2.2.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="'.$link.'dist/css/AdminLTE.min.css">
+  <link rel="stylesheet" href="<?=$link?>dist/css/AdminLTE.min.css">
   <!-- AdminLTE Skins. Choose a skin from the css/skins
        folder instead of downloading all of them to reduce the load. -->
-  <link rel="stylesheet" href="'.$link.'dist/css/skins/_all-skins.min.css">
+  <link rel="stylesheet" href="<?=$link?>dist/css/skins/_all-skins.min.css">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn"t work if you view the page via file:// -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -72,7 +69,7 @@ echo '
                   <li><!-- start message -->
                     <a href="#">
                       <div class="pull-left">
-                        <img src="'.$link.'dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                        <img src="<?=$link?>dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
                       </div>
                       <h4>
                         Support Team
@@ -85,7 +82,7 @@ echo '
                   <li>
                     <a href="#">
                       <div class="pull-left">
-                        <img src="'.$link.'dist/img/user3-128x128.jpg" class="img-circle" alt="User Image">
+                        <img src="<?=$link?>dist/img/user3-128x128.jpg" class="img-circle" alt="User Image">
                       </div>
                       <h4>
                         AdminLTE Design Team
@@ -97,7 +94,7 @@ echo '
                   <li>
                     <a href="#">
                       <div class="pull-left">
-                        <img src="'.$link.'dist/img/user4-128x128.jpg" class="img-circle" alt="User Image">
+                        <img src="<?=$link?>dist/img/user4-128x128.jpg" class="img-circle" alt="User Image">
                       </div>
                       <h4>
                         Developers
@@ -109,7 +106,7 @@ echo '
                   <li>
                     <a href="#">
                       <div class="pull-left">
-                        <img src="'.$link.'dist/img/user3-128x128.jpg" class="img-circle" alt="User Image">
+                        <img src="<?=$link?>dist/img/user3-128x128.jpg" class="img-circle" alt="User Image">
                       </div>
                       <h4>
                         Sales Department
@@ -121,7 +118,7 @@ echo '
                   <li>
                     <a href="#">
                       <div class="pull-left">
-                        <img src="'.$link.'dist/img/user4-128x128.jpg" class="img-circle" alt="User Image">
+                        <img src="<?=$link?>dist/img/user4-128x128.jpg" class="img-circle" alt="User Image">
                       </div>
                       <h4>
                         Reviewers
@@ -254,13 +251,13 @@ echo '
           <!-- User Account: style can be found in dropdown.less -->
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <img src="'.$link.'dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
+              <img src="<?=$link?>dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
               <span class="hidden-xs">Alexander Pierce</span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
               <li class="user-header">
-                <img src="'.$link.'dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                <img src="<?=$link?>dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
 
                 <p>
                   Alexander Pierce - Web Developer
@@ -309,7 +306,7 @@ echo '
       <!-- Sidebar user panel -->
       <div class="user-panel">
         <div class="pull-left image">
-          <img src="'.$link.'dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+          <img src="<?=$link?>dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
           <p>Alexander Pierce</p>
@@ -330,36 +327,33 @@ echo '
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu">
         <li class="header">MAIN NAVIGATION</li>
-        <li class="treeview">
+        <li class="active treeview">
           <a href="#">
-            <i class="fa fa-home"></i> <span>Produtos</span>
+            <i class="fa fa-dashboard"></i> <span>Produtos</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="http://13.56.14.158/agvip/AdminLTE-2.3.11/Produtos/passagens.php"><i class="fa fa-circle-o"></i> Passagens</a></li>
-            <li><a href="'.$link.'index2.html"><i class="fa fa-circle-o"></i> Hoteis</a></li>
-            <li><a href="'.$link.'index2.html"><i class="fa fa-circle-o"></i> Pacotes</a></li>
-            <li><a href="'.$link.'index2.html"><i class="fa fa-circle-o"></i> Carros</a></li>
-            <li><a href="'.$link.'index2.html"><i class="fa fa-circle-o"></i> Ingressos</a></li>
+            <li><a href="<?=$link?>index.html"><i class="fa fa-circle-o"></i> Passagens</a></li>
+            <li class="active"><a href="<?=$link?>index2.html"><i class="fa fa-circle-o"></i> Hoteis</a></li>
           </ul>
         </li>
         <li class="treeview">
           <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+            <i class="fa fa-dashboard"></i> <span>Produtos</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="'.$link.'index.html"><i class="fa fa-circle-o"></i> Gráficos</a></li>
-            <li class="active"><a href="'.$link.'index2.html"><i class="fa fa-circle-o"></i> Hoteis</a></li>
+            <li><a href="<?=$link?>index.html"><i class="fa fa-circle-o"></i> Passagens</a></li>
+            <li class="active"><a href="<?=$link?>index2.html"><i class="fa fa-circle-o"></i> Hoteis</a></li>
           </ul>
         </li>
         
         <li>
-          <a href="'.$link.'pages/widgets.html">
+          <a href="<?=$link?>pages/widgets.html">
             <i class="fa fa-th"></i> <span>Widgets</span>
             <span class="pull-right-container">
               <small class="label pull-right bg-green">new</small>
@@ -375,10 +369,10 @@ echo '
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="'.$link.'pages/charts/chartjs.html"><i class="fa fa-circle-o"></i> ChartJS</a></li>
-            <li><a href="'.$link.'pages/charts/morris.html"><i class="fa fa-circle-o"></i> Morris</a></li>
-            <li><a href="'.$link.'pages/charts/flot.html"><i class="fa fa-circle-o"></i> Flot</a></li>
-            <li><a href="'.$link.'pages/charts/inline.html"><i class="fa fa-circle-o"></i> Inline charts</a></li>
+            <li><a href="<?=$link?>pages/charts/chartjs.html"><i class="fa fa-circle-o"></i> ChartJS</a></li>
+            <li><a href="<?=$link?>pages/charts/morris.html"><i class="fa fa-circle-o"></i> Morris</a></li>
+            <li><a href="<?=$link?>pages/charts/flot.html"><i class="fa fa-circle-o"></i> Flot</a></li>
+            <li><a href="<?=$link?>pages/charts/inline.html"><i class="fa fa-circle-o"></i> Inline charts</a></li>
           </ul>
         </li>
         <li class="treeview">
@@ -390,12 +384,12 @@ echo '
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="'.$link.'pages/UI/general.html"><i class="fa fa-circle-o"></i> General</a></li>
-            <li><a href="'.$link.'pages/UI/icons.html"><i class="fa fa-circle-o"></i> Icons</a></li>
-            <li><a href="'.$link.'pages/UI/buttons.html"><i class="fa fa-circle-o"></i> Buttons</a></li>
-            <li><a href="'.$link.'pages/UI/sliders.html"><i class="fa fa-circle-o"></i> Sliders</a></li>
-            <li><a href="'.$link.'pages/UI/timeline.html"><i class="fa fa-circle-o"></i> Timeline</a></li>
-            <li><a href="'.$link.'pages/UI/modals.html"><i class="fa fa-circle-o"></i> Modals</a></li>
+            <li><a href="<?=$link?>pages/UI/general.html"><i class="fa fa-circle-o"></i> General</a></li>
+            <li><a href="<?=$link?>pages/UI/icons.html"><i class="fa fa-circle-o"></i> Icons</a></li>
+            <li><a href="<?=$link?>pages/UI/buttons.html"><i class="fa fa-circle-o"></i> Buttons</a></li>
+            <li><a href="<?=$link?>pages/UI/sliders.html"><i class="fa fa-circle-o"></i> Sliders</a></li>
+            <li><a href="<?=$link?>pages/UI/timeline.html"><i class="fa fa-circle-o"></i> Timeline</a></li>
+            <li><a href="<?=$link?>pages/UI/modals.html"><i class="fa fa-circle-o"></i> Modals</a></li>
           </ul>
         </li>
         <li class="treeview">
@@ -406,9 +400,9 @@ echo '
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="'.$link.'pages/forms/general.html"><i class="fa fa-circle-o"></i> General Elements</a></li>
-            <li><a href="'.$link.'pages/forms/advanced.html"><i class="fa fa-circle-o"></i> Advanced Elements</a></li>
-            <li><a href="'.$link.'pages/forms/editors.html"><i class="fa fa-circle-o"></i> Editors</a></li>
+            <li><a href="<?=$link?>pages/forms/general.html"><i class="fa fa-circle-o"></i> General Elements</a></li>
+            <li><a href="<?=$link?>pages/forms/advanced.html"><i class="fa fa-circle-o"></i> Advanced Elements</a></li>
+            <li><a href="<?=$link?>pages/forms/editors.html"><i class="fa fa-circle-o"></i> Editors</a></li>
           </ul>
         </li>
         <li class="treeview">
@@ -419,12 +413,12 @@ echo '
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="'.$link.'pages/tables/simple.html"><i class="fa fa-circle-o"></i> Simple tables</a></li>
-            <li><a href="'.$link.'pages/tables/data.html"><i class="fa fa-circle-o"></i> Data tables</a></li>
+            <li><a href="<?=$link?>pages/tables/simple.html"><i class="fa fa-circle-o"></i> Simple tables</a></li>
+            <li><a href="<?=$link?>pages/tables/data.html"><i class="fa fa-circle-o"></i> Data tables</a></li>
           </ul>
         </li>
         <li>
-          <a href="'.$link.'pages/calendar.html">
+          <a href="<?=$link?>pages/calendar.html">
             <i class="fa fa-calendar"></i> <span>Calendar</span>
             <span class="pull-right-container">
               <small class="label pull-right bg-red">3</small>
@@ -433,7 +427,7 @@ echo '
           </a>
         </li>
         <li>
-          <a href="'.$link.'pages/mailbox/mailbox.html">
+          <a href="<?=$link?>pages/mailbox/mailbox.html">
             <i class="fa fa-envelope"></i> <span>Mailbox</span>
             <span class="pull-right-container">
               <small class="label pull-right bg-yellow">12</small>
@@ -450,15 +444,15 @@ echo '
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="'.$link.'pages/examples/invoice.html"><i class="fa fa-circle-o"></i> Invoice</a></li>
-            <li><a href="'.$link.'pages/examples/profile.html"><i class="fa fa-circle-o"></i> Profile</a></li>
-            <li><a href="'.$link.'pages/examples/login.html"><i class="fa fa-circle-o"></i> Login</a></li>
-            <li><a href="'.$link.'pages/examples/register.html"><i class="fa fa-circle-o"></i> Register</a></li>
-            <li><a href="'.$link.'pages/examples/lockscreen.html"><i class="fa fa-circle-o"></i> Lockscreen</a></li>
-            <li><a href="'.$link.'pages/examples/404.html"><i class="fa fa-circle-o"></i> 404 Error</a></li>
-            <li><a href="'.$link.'pages/examples/500.html"><i class="fa fa-circle-o"></i> 500 Error</a></li>
-            <li><a href="'.$link.'pages/examples/blank.html"><i class="fa fa-circle-o"></i> Blank Page</a></li>
-            <li><a href="'.$link.'pages/examples/pace.html"><i class="fa fa-circle-o"></i> Pace Page</a></li>
+            <li><a href="<?=$link?>pages/examples/invoice.html"><i class="fa fa-circle-o"></i> Invoice</a></li>
+            <li><a href="<?=$link?>pages/examples/profile.html"><i class="fa fa-circle-o"></i> Profile</a></li>
+            <li><a href="<?=$link?>pages/examples/login.html"><i class="fa fa-circle-o"></i> Login</a></li>
+            <li><a href="<?=$link?>pages/examples/register.html"><i class="fa fa-circle-o"></i> Register</a></li>
+            <li><a href="<?=$link?>pages/examples/lockscreen.html"><i class="fa fa-circle-o"></i> Lockscreen</a></li>
+            <li><a href="<?=$link?>pages/examples/404.html"><i class="fa fa-circle-o"></i> 404 Error</a></li>
+            <li><a href="<?=$link?>pages/examples/500.html"><i class="fa fa-circle-o"></i> 500 Error</a></li>
+            <li><a href="<?=$link?>pages/examples/blank.html"><i class="fa fa-circle-o"></i> Blank Page</a></li>
+            <li><a href="<?=$link?>pages/examples/pace.html"><i class="fa fa-circle-o"></i> Pace Page</a></li>
           </ul>
         </li>
         <li class="treeview">
@@ -494,7 +488,7 @@ echo '
             <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
           </ul>
         </li>
-        <li><a href="'.$link.'documentation/index.html"><i class="fa fa-book"></i> <span>Documentation</span></a></li>
+        <li><a href="<?=$link?>documentation/index.html"><i class="fa fa-book"></i> <span>Documentation</span></a></li>
         <li class="header">LABELS</li>
         <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Important</span></a></li>
         <li><a href="#"><i class="fa fa-circle-o text-yellow"></i> <span>Warning</span></a></li>
@@ -520,7 +514,8 @@ echo '
 
     <!-- Main content -->
     
-  
+    <!--Meio da pagina -->
+
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
@@ -551,7 +546,7 @@ echo '
               <i class="menu-icon fa fa-birthday-cake bg-red"></i>
 
               <div class="menu-info">
-                <h4 class="control-sidebar-subheading">Langdon"s Birthday</h4>
+                <h4 class="control-sidebar-subheading">Langdon's Birthday</h4>
 
                 <p>Will be 23 on April 24th</p>
               </div>
@@ -721,7 +716,7 @@ echo '
     </div>
   </aside>
   <!-- /.control-sidebar -->
-  <!-- Add the sidebar"s background. This div must be placed
+  <!-- Add the sidebar's background. This div must be placed
        immediately after the control sidebar -->
   <div class="control-sidebar-bg"></div>
 
@@ -729,25 +724,25 @@ echo '
 <!-- ./wrapper -->
 
 <!-- jQuery 2.2.3 -->
-<script src="'.$link.'plugins/jQuery/jquery-2.2.3.min.js"></script>
+<script src="<?=$link?>plugins/jQuery/jquery-2.2.3.min.js"></script>
 <!-- Bootstrap 3.3.6 -->
-<script src="'.$link.'bootstrap/js/bootstrap.min.js"></script>
+<script src="<?=$link?>bootstrap/js/bootstrap.min.js"></script>
 <!-- FastClick -->
-<script src="'.$link.'plugins/fastclick/fastclick.js"></script>
+<script src="<?=$link?>plugins/fastclick/fastclick.js"></script>
 <!-- AdminLTE App -->
-<script src="'.$link.'dist/js/app.min.js"></script>
+<script src="<?=$link?>dist/js/app.min.js"></script>
 <!-- Sparkline -->
-<script src="'.$link.'plugins/sparkline/jquery.sparkline.min.js"></script>
+<script src="<?=$link?>plugins/sparkline/jquery.sparkline.min.js"></script>
 <!-- jvectormap -->
-<script src="'.$link.'plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
-<script src="'.$link.'plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+<script src="<?=$link?>plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+<script src="<?=$link?>plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
 <!-- SlimScroll 1.3.0 -->
-<script src="'.$link.'plugins/slimScroll/jquery.slimscroll.min.js"></script>
+<script src="<?=$link?>plugins/slimScroll/jquery.slimscroll.min.js"></script>
 <!-- ChartJS 1.0.1 -->
-<script src="'.$link.'plugins/chartjs/Chart.min.js"></script>
+<script src="<?=$link?>plugins/chartjs/Chart.min.js"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="'.$link.'dist/js/pages/dashboard2.js"></script>
+<script src="<?=$link?>dist/js/pages/dashboard2.js"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="'.$link.'dist/js/demo.js"></script>
+<script src="<?=$link?>dist/js/demo.js"></script>
 </body>
-</html> ';
+</html>
