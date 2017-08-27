@@ -507,7 +507,7 @@ $host = "http://13.56.14.158";
         <small>Version 2.0</small>
       </h1>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a href="http://13.56.14.158/agvip/admin-te"><i class="fa fa-dashboard"></i> Home</a></li>
         <li class="active">Dashboard</li>
       </ol>
     </section>
