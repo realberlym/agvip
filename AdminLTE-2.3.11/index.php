@@ -3,7 +3,9 @@
 $link = "http://13.56.14.158/agvip/AdminLTE-2.3.11/";
 $host = "http://13.56.14.158";
 
-?>
+
+echo '
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -27,7 +29,7 @@ $host = "http://13.56.14.158";
   <link rel="stylesheet" href="<?=$link?>dist/css/skins/_all-skins.min.css">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!-- WARNING: Respond.js doesn"t work if you view the page via file:// -->
   <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -549,7 +551,7 @@ $host = "http://13.56.14.158";
               <i class="menu-icon fa fa-birthday-cake bg-red"></i>
 
               <div class="menu-info">
-                <h4 class="control-sidebar-subheading">Langdon's Birthday</h4>
+                <h4 class="control-sidebar-subheading">Langdon"s Birthday</h4>
 
                 <p>Will be 23 on April 24th</p>
               </div>
@@ -719,7 +721,7 @@ $host = "http://13.56.14.158";
     </div>
   </aside>
   <!-- /.control-sidebar -->
-  <!-- Add the sidebar's background. This div must be placed
+  <!-- Add the sidebar"s background. This div must be placed
        immediately after the control sidebar -->
   <div class="control-sidebar-bg"></div>
 
@@ -748,4 +750,4 @@ $host = "http://13.56.14.158";
 <!-- AdminLTE for demo purposes -->
 <script src="<?=$link?>dist/js/demo.js"></script>
 </body>
-</html>
+</html> '
