@@ -329,7 +329,7 @@ $host = "http://13.56.14.158";
         <li class="header">MAIN NAVIGATION</li>
         <li class="treeview">
           <a href="#">
-            <i class="fa fa-product"></i> <span>Produtos</span>
+            <i class="fa fa-home"></i> <span>Produtos</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
@@ -344,13 +344,13 @@ $host = "http://13.56.14.158";
         </li>
         <li class="treeview">
           <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Produtos</span>
+            <i class="fa fa-dashboard"></i> <span>Dashboard</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="<?=$link?>index.html"><i class="fa fa-circle-o"></i> Passagens</a></li>
+            <li><a href="<?=$link?>index.html"><i class="fa fa-circle-o"></i> Gráficos</a></li>
             <li class="active"><a href="<?=$link?>index2.html"><i class="fa fa-circle-o"></i> Hoteis</a></li>
           </ul>
         </li>
