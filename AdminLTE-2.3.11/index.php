@@ -329,7 +329,7 @@ $host = "http://13.56.14.158";
         <li class="header">MAIN NAVIGATION</li>
         <li class="treeview">
           <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Produtos</span>
+            <i class="fa fa-product"></i> <span>Produtos</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
