@@ -327,28 +327,31 @@ $host = "http://13.56.14.158";
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu">
         <li class="header">MAIN NAVIGATION</li>
-        <!--<li class="active treeview">-->
-          <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Dashboard</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="<?=$link?>index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-            <li class="active"><a href="<?=$link?>index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
-          </ul>
-        </li>
         <li class="active treeview">
           <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+            <i class="fa fa-dashboard"></i> <span>Produtos</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="<?=$link?>index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-            <li class="active"><a href="<?=$link?>index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
+            <li><a href="<?=$link?>index.html"><i class="fa fa-circle-o"></i> Passagens</a></li>
+            <li><a href="<?=$link?>index2.html"><i class="fa fa-circle-o"></i> Hoteis</a></li>
+            <li><a href="<?=$link?>index2.html"><i class="fa fa-circle-o"></i> Pacotes</a></li>
+            <li><a href="<?=$link?>index2.html"><i class="fa fa-circle-o"></i> Carros</a></li>
+            <li><a href="<?=$link?>index2.html"><i class="fa fa-circle-o"></i> Ingressos</a></li>
+          </ul>
+        </li>
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-dashboard"></i> <span>Produtos</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="<?=$link?>index.html"><i class="fa fa-circle-o"></i> Passagens</a></li>
+            <li class="active"><a href="<?=$link?>index2.html"><i class="fa fa-circle-o"></i> Hoteis</a></li>
           </ul>
         </li>
         
