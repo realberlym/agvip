@@ -750,4 +750,4 @@ echo '
 <!-- AdminLTE for demo purposes -->
 <script src="<?=$link?>dist/js/demo.js"></script>
 </body>
-</html> '
+</html> ';
