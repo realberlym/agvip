@@ -39,7 +39,7 @@ $host = "http://13.56.14.158";
   <header class="main-header">
 
     <!-- Logo -->
-    <a href="#" class="logo">
+    <a href="http://13.56.14.158/agvip/admin-te" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>A</b>LT</span>
       <!-- logo for regular state and mobile devices -->
