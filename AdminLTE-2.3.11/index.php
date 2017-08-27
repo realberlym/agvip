@@ -338,7 +338,7 @@ echo '
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="'.$link.'index.html"><i class="fa fa-circle-o"></i> Passagens</a></li>
+            <li><a href="http://13.56.14.158/agvip/AdminLTE-2.3.11/Produtos/passagens.php"><i class="fa fa-circle-o"></i> Passagens</a></li>
             <li><a href="'.$link.'index2.html"><i class="fa fa-circle-o"></i> Hoteis</a></li>
             <li><a href="'.$link.'index2.html"><i class="fa fa-circle-o"></i> Pacotes</a></li>
             <li><a href="'.$link.'index2.html"><i class="fa fa-circle-o"></i> Carros</a></li>

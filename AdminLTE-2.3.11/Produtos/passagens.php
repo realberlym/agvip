@@ -1,8 +1,6 @@
 <?php 
 
-
-function LoadingProdutos(){
-
+include_once('http://13.56.14.158/agvip/AdminLTE-2.3.11/index.php');
 
     echo ' <div class="container">
               <h2>Hover Rows</h2>
@@ -35,9 +33,6 @@ function LoadingProdutos(){
               </table>
             </div>';
 
-
-
-}
 
 
 
