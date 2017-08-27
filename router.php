@@ -77,21 +77,6 @@ function rotas_home(){
 	});
 
 
-	//Produtos
-
-	$app->get('/passagens', function(){
-
-		session_start();
-		
-		$_SESSION['logado'] = 0 ;
-
-		include_once("AdminLTE-2.3.11/Produtos/passagens.php");
-
-
-	});
-
-	//
-
 
 
 	$app->run();
