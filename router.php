@@ -85,7 +85,7 @@ function rotas_home(){
 		
 		$_SESSION['logado'] = 0 ;
 
-		include_once("AdminLTE-2.3.11/Produtos/login.php");
+		include_once("AdminLTE-2.3.11/Produtos/passagens.php");
 
 
 	});
