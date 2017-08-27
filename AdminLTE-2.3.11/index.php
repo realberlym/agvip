@@ -520,9 +520,7 @@ echo '
 
     <!-- Main content -->
     
-    ''
-
-
+  
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
