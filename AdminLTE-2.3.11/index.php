@@ -549,7 +549,6 @@ $host = "http://13.56.14.158";
 </div>
 
     <!-- /.content -->
-  </div>
   <!-- /.content-wrapper -->
 
   <footer class="main-footer">
