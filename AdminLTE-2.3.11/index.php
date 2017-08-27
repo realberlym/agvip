@@ -519,7 +519,12 @@ echo '
 
     <!-- Main content -->
     
-    'LoadingProdutos();'
+    ';
+
+
+    LoadingProdutos();
+
+    echo '
 
 
     <!-- /.content -->
