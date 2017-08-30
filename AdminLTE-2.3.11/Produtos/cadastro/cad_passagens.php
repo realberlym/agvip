@@ -562,7 +562,7 @@ $host = "http://13.56.14.158";
   </div>
   
   <div class="row">
-      <div class="form-group col-md-2">
+      <div class="form-group col-md-3">
         <label for="exampleInputEmail1">Ida, Volta ou Ida e Volta ?</label>
       </div>
     <div class="form-group col-md-2">
