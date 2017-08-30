@@ -508,45 +508,13 @@ $host = "http://13.56.14.158";
         <small>Version 2.0</small>
       </h1>
       <ol class="breadcrumb">
-        <li class="active"><a href="<?=$host?>/agvip/admin-te/cad_passagens" class="btn btn-default btn-flat">Cadastrar +</a></li>
+        <li class="active"><a href="#" class="btn btn-default btn-flat">Cadastrar +</a></li>
       </ol>
     </section>
 
     <!-- Main content -->
-    
-    <div class="container">
-      <h2>Cadastrar Passagens</h2>
-      <p>* Atenção ao deletar você terá que cadastrar novamente</p>            
-      <table class="table table-hover">
-        <thead>
-          <tr>
-            <th>Tipo</th>
-            <th>Data Ida</th>
-            <th>Data Volta</th>
-            <th>Origem</th>
-            <th>Volta</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>John</td>
-            <td>Doe</td>
-            <td>john@example.com</td>
-          </tr>
-          <tr>
-            <td>Mary</td>
-            <td>Moe</td>
-            <td>mary@example.com</td>
-          </tr>
-          <tr>
-            <td>July</td>
-            <td>Dooley</td>
-            <td>july@example.com</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
+        
+        
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
