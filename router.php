@@ -90,18 +90,7 @@ function rotas_home(){
 
 	$app->run();
 
-	$app->get('/admin-te/cad_passagens', function(){
-
-		session_start();
-		
-		$_SESSION['logado'] = 0 ;
-
-		include_once("AdminLTE-2.3.11/Produtos/cadastro/cad_passagens.php");
-
-
-	});
-
-	$app->run();
+	
 
 }
 
