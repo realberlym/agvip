@@ -502,11 +502,12 @@ $host = "http://13.56.14.158";
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
-     <h1>
+    <section class="content-header">
+      <h1>
         AGVIP
         <small>Plataforma Version 1.0</small>
       </h1>
-    <section class="content-header">
+      <p></p>
       <ol class="breadcrumb">
         <a href="#" class="btn btn-danger">Salvar</a>
         <a href="<?=$host?>/agvip/admin-te/passagens" class="btn btn-default btn-flat">Cancelar</a>
