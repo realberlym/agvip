@@ -544,7 +544,7 @@ $host = "http://13.56.14.158";
         <label for="exampleInputEmail1">Valor</label>
         <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Exempplo: R$ 999,999">
       </div>
-    <div class="form-group col-md-3">
+    <div class="form-group col-md-4">
         <label for="exampleInputEmail1">Número de Passageiros</label>
         <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite o Número de Passageiros">
       </div>
@@ -562,16 +562,16 @@ $host = "http://13.56.14.158";
   </div>
   
   <div class="row">
-      <div class="form-group col-md-1">
+      <div class="form-group col-md-2">
         <label for="exampleInputEmail1">Ida, Volta ou Ida e Volta ?</label>
       </div>
-    <div class="form-group col-md-1">
+    <div class="form-group col-md-2">
         <input type="checkbox" id="exampleInputEmail1" > - Ida
       </div>
-    <div class="form-group">
+    <div class="form-group col-md-2">
         <input type="checkbox" id="exampleInputEmail1" > - Volta
       </div>
-    <div class="form-group col-md-1">
+    <div class="form-group col-md-2">
         <input type="checkbox" id="exampleInputEmail1" > - Ida e Volta
       </div>
   </div>
