@@ -504,8 +504,8 @@ $host = "http://13.56.14.158";
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Dashboard
-        <small>Version 2.0</small>
+        AGVIP
+        <small>Plataforma Version 1.0</small>
       </h1>
       <ol class="breadcrumb">
         <a href="<?=$host?>/agvip/admin-te/cad_passagens" class="btn btn-success">Cadastrar +</a>
@@ -515,7 +515,7 @@ $host = "http://13.56.14.158";
     <!-- Main content -->
     
     <div class="container">
-      <h2>Cadastrar Passagens</h2>
+      <h2>Passagens</h2>
       <p>* Atenção ao deletar você terá que cadastrar novamente</p>            
       <table class="table table-hover">
         <thead>
