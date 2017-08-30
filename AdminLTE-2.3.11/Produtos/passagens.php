@@ -521,6 +521,7 @@ $host = "http://13.56.14.158";
         <thead>
           <tr>
             <th>Tipo</th>
+            <th>Veículo</th>
             <th>Data Ida</th>
             <th>Data Volta</th>
             <th>Origem</th>

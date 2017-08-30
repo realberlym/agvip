@@ -537,67 +537,45 @@ $host = "http://13.56.14.158";
   
   <div class="row">
       <div class="form-group col-md-3">
-        <label for="exampleInputEmail1">Campo Quatro</label>
+        <label for="exampleInputEmail1">Veículo</label>
         <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite o valor">
       </div>
     <div class="form-group col-md-3">
-        <label for="exampleInputEmail1">Campo Cinco</label>
+        <label for="exampleInputEmail1">Valor</label>
         <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite o valor">
       </div>
     <div class="form-group col-md-3">
-        <label for="exampleInputEmail1">Campo Seis</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite o valor">
-      </div>
-    <div class="form-group col-md-3">
-        <label for="exampleInputEmail1">Campo Sete</label>
+        <label for="exampleInputEmail1">Passageiros</label>
         <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite o valor">
       </div>
   </div>
   
   <div class="row">
       <div class="form-group col-md-6">
-        <label for="exampleInputEmail1">Campo Oito</label>
+        <label for="exampleInputEmail1">Origem</label>
         <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite o valor">
       </div>
     <div class="form-group col-md-6">
-        <label for="exampleInputEmail1">Campo Nove</label>
+        <label for="exampleInputEmail1">Destino</label>
         <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite o valor">
       </div>
   </div>
   
   <div class="row">
       <div class="form-group col-md-3">
-        <label for="exampleInputEmail1">Campo Dez</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite o valor">
+        <label for="exampleInputEmail1">Ida, Volta ou Ida e Volta?</label>
       </div>
     <div class="form-group col-md-3">
-        <label for="exampleInputEmail1">Campo Onze</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite o valor">
+        <input type="checkbox" class="form-control" id="exampleInputEmail1" placeholder="Digite o valor">Ida
       </div>
     <div class="form-group col-md-3">
-        <label for="exampleInputEmail1">Campo Doze</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite o valor">
+        <input type="checkbox" class="form-control" id="exampleInputEmail1" placeholder="Digite o valor">Volta
       </div>
     <div class="form-group col-md-3">
-        <label for="exampleInputEmail1">Campo Treza</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite o valor">
+        <input type="checkbox" class="form-control" id="exampleInputEmail1" placeholder="Digite o valor">Ida e Volta
       </div>
   </div>
-  
-  <div class="row">
-      <div class="form-group col-md-6">
-        <label for="exampleInputEmail1">Campo Quatorze</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite o valor">
-      </div>
-    <div class="form-group col-md-6">
-        <label for="exampleInputEmail1">Campo Quinze</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite o valor">
-      </div>
-  </div>
-  
-  <hr />
-
-
+  <hr/>
   </form>
 
     <!-- /.content -->
