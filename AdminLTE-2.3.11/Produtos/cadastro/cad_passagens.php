@@ -508,7 +508,7 @@ $host = "http://13.56.14.158";
         <small>Version 2.0</small>
       </h1>
       <ol class="breadcrumb">
-        <button type="button"  class="btn btn-danger"><a href="#" style="font-color: white;">Salvar</a></button>
+        <a href="#" class="btn btn-danger">Salvar</a>
         <a href="<?=$host?>/agvip/admin-te/passagens" class="btn btn-default btn-flat">Cancelar</a>
       </ol>
     </section>
