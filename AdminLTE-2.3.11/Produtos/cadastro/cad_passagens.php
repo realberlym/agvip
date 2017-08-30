@@ -518,16 +518,16 @@ $host = "http://13.56.14.158";
      <form class="col-md-10" action="index.html">
     <div class="row">
       <div class="form-group col-md-4">
-        <label for="exampleInputEmail1">Campo Um</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite o valor">
+        <label for="exampleInputEmail1">Tipo</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite o tipo que será feito o trajeto">
       </div>
     <div class="form-group col-md-4">
-        <label for="exampleInputEmail1">Campo Dois</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite o valor">
+        <label for="exampleInputEmail1">Data ida</label>
+        <input type="date" class="form-control" id="exampleInputEmail1">
       </div>
     <div class="form-group col-md-4">
-        <label for="exampleInputEmail1">Campo Três</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite o valor">
+        <label for="exampleInputEmail1">Data Volta</label>
+        <input type="date" class="form-control" id="exampleInputEmail1">
       </div>
   </div>
   
