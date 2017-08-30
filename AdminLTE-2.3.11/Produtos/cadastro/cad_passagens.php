@@ -508,13 +508,13 @@ $host = "http://13.56.14.158";
         <small>Version 2.0</small>
       </h1>
       <ol class="breadcrumb">
-        <li class="active"><a href="#" class="btn btn-default btn-flat">Cadastrar +</a></li>
+        <li class="active"><a href="#" style="background-color: red;" class="btn btn-default btn-flat">Salvar</a></li>
       </ol>
     </section>
 
     <!-- Main content -->
         
-        
+
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
