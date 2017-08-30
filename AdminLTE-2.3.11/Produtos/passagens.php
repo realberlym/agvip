@@ -521,9 +521,11 @@ $host = "http://13.56.14.158";
       <table class="table table-hover">
         <thead>
           <tr>
-            <th>Firstname</th>
-            <th>Lastname</th>
-            <th>Email</th>
+            <th>Tipo</th>
+            <th>Data Ida</th>
+            <th>Data Volta</th>
+            <th>Origem</th>
+            <th>Volta</th>
           </tr>
         </thead>
         <tbody>
