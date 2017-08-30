@@ -518,8 +518,12 @@ $host = "http://13.56.14.158";
      <form class="col-md-10" action="index.html">
     <div class="row">
       <div class="form-group col-md-4">
-        <label for="exampleInputEmail1">Tipo</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite o tipo que será feito o trajeto">
+        <label for="tipo">Tipo</label>
+        <select class="form-control">
+          <option value="Aéreo">Aéreo</option>
+          <option value="Terrestre">Terrestre</option>
+          <option value="Marina">Marina</option>
+        </select>
       </div>
     <div class="form-group col-md-4">
         <label for="exampleInputEmail1">Data ida</label>
