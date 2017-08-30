@@ -336,7 +336,7 @@ $host = "http://13.56.14.158";
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="<?=$link?>index.html"><i class="fa fa-circle-o"></i> Passagens</a></li>
+            <li><a href="http://13.56.14.158/agvip/admin-te/passagens"><i class="fa fa-circle-o"></i> Passagens</a></li>
             <li class="active"><a href="<?=$link?>index2.html"><i class="fa fa-circle-o"></i> Hoteis</a></li>
           </ul>
         </li>
