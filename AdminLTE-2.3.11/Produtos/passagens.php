@@ -3,6 +3,8 @@
 $link = "http://13.56.14.158/agvip/AdminLTE-2.3.11/";
 $host = "http://13.56.14.158";
 
+session_start();
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -515,7 +517,7 @@ $host = "http://13.56.14.158";
     <!-- Main content -->
     
     <div class="container">
-      <h2>Hover Rows</h2>
+      <h2>Cadastrar Passagens</h2>
       <p>The .table-hover class enables a hover state on table rows:</p>            
       <table class="table table-hover">
         <thead>
