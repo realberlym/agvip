@@ -508,7 +508,7 @@ $host = "http://13.56.14.158";
         <small>Version 2.0</small>
       </h1>
       <ol class="breadcrumb">
-        <li class="active"><a href="#" class="btn btn-danger">Salvar</a></li>
+        <button type="button" class="btn btn-danger">Salvar</button>
       </ol>
     </section>
 
