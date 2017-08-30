@@ -538,41 +538,41 @@ $host = "http://13.56.14.158";
   <div class="row">
       <div class="form-group col-md-3">
         <label for="exampleInputEmail1">Veículo</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite o valor">
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Exemplo: Avião...">
       </div>
     <div class="form-group col-md-3">
         <label for="exampleInputEmail1">Valor</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite o valor">
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Exempplo: R$ 999,999">
       </div>
     <div class="form-group col-md-3">
-        <label for="exampleInputEmail1">Passageiros</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite o valor">
+        <label for="exampleInputEmail1">Número de Passageiros</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite o Número de Passageiros">
       </div>
   </div>
   
   <div class="row">
       <div class="form-group col-md-6">
         <label for="exampleInputEmail1">Origem</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite o valor">
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite a Origem">
       </div>
     <div class="form-group col-md-6">
         <label for="exampleInputEmail1">Destino</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite o valor">
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite o destino">
       </div>
   </div>
   
   <div class="row">
-      <div class="form-group col-md-3">
-        <label for="exampleInputEmail1">Ida, Volta ou Ida e Volta?</label>
+      <div class="form-group col-md-1">
+        <label for="exampleInputEmail1">Ida, Volta ou Ida e Volta ?</label>
       </div>
-    <div class="form-group col-md-3">
-        <input type="checkbox" id="exampleInputEmail1" >Ida
+    <div class="form-group col-md-1">
+        <input type="checkbox" id="exampleInputEmail1" > - Ida
       </div>
-    <div class="form-group col-md-3">
-        <input type="checkbox" id="exampleInputEmail1" >Volta
+    <div class="form-group">
+        <input type="checkbox" id="exampleInputEmail1" > - Volta
       </div>
-    <div class="form-group col-md-3">
-        <input type="checkbox" id="exampleInputEmail1" >Ida e Volta
+    <div class="form-group col-md-1">
+        <input type="checkbox" id="exampleInputEmail1" > - Ida e Volta
       </div>
   </div>
    
