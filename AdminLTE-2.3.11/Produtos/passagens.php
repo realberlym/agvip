@@ -508,13 +508,12 @@ $host = "http://13.56.14.158";
         <small>Version 2.0</small>
       </h1>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Dashboard</li>
+        <li class="active"><a href="#" class="btn btn-default btn-flat">Cadastrar +</a></li>
       </ol>
     </section>
 
     <!-- Main content -->
-    <a href="#" class="btn btn-default btn-flat">Cadastrar +</a>
+    
     <div class="container">
       <h2>Cadastrar Passagens</h2>
       <p>* Atenção ao deletar você terá que cadastrar novamente</p>            
