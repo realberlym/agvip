@@ -504,7 +504,7 @@ $host = "http://13.56.14.158";
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        AGVIP
+        Cadastrar Passagens
         <small>Plataforma Version 1.0</small>
       </h1>
       <p></p>
