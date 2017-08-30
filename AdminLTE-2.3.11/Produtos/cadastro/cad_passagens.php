@@ -565,20 +565,18 @@ $host = "http://13.56.14.158";
       <div class="form-group col-md-3">
         <label for="exampleInputEmail1">Ida, Volta ou Ida e Volta?</label>
       </div>
-  <div class="row">
-       <div class="form-group col-md-3">
-        <input type="checkbox" class="form-control" id="exampleInputEmail1">Ida
-        </div>
     <div class="form-group col-md-3">
-        <input type="checkbox" class="form-control" id="exampleInputEmail1">Volta
-    </div>
-    <div class="form-group col-md-3">
-        <input type="checkbox" class="form-control" id="exampleInputEmail1">Ida e Volta
+        <input type="checkbox" class="form-control" id="exampleInputEmail1" >Ida
       </div>
-    </div>
+    <div class="form-group col-md-3">
+        <input type="checkbox" class="form-control" id="exampleInputEmail1" >Volta
+      </div>
+    <div class="form-group col-md-3">
+        <input type="checkbox" class="form-control" id="exampleInputEmail1" >Ida e Volta
+      </div>
   </div>
-  
-  <hr />
+   
+  <hr/>
 
 
   </form>
