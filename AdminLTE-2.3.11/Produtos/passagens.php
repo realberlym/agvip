@@ -508,7 +508,7 @@ $host = "http://13.56.14.158";
         <small>Version 2.0</small>
       </h1>
       <ol class="breadcrumb">
-        <li class="active"><a href="<?=$host?>/agvip/admin-te/cad_passagens" class="btn btn-default btn-flat">Cadastrar +</a></li>
+        <li class="active"><a href="<?=$host?>/agvip/admin-te/cad_passagens" class="btn btn-success">Cadastrar +</a></li>
       </ol>
     </section>
 
