@@ -514,7 +514,10 @@ $host = "http://13.56.14.158";
     </section>
 
     <!-- Main content -->
-        
+        <div class="input-group">
+          <span class="input-group-addon" id="basic-addon1">Tipo:</span>
+          <input type="text" class="form-control" placeholder="Digite qual tipo será feito o trajeto" aria-describedby="basic-addon1">
+        </div>
 
     <!-- /.content -->
   </div>
