@@ -514,7 +514,7 @@ $host = "http://13.56.14.158";
     </section>
 
     <!-- Main content -->
-    
+    <a href="#" class="btn btn-default btn-flat">Cadastrar +</a>
     <div class="container">
       <h2>Cadastrar Passagens</h2>
       <p>* Atenção ao deletar você terá que cadastrar novamente</p>            
