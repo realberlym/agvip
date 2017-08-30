@@ -517,7 +517,7 @@ $host = "http://13.56.14.158";
     
     <div class="container">
       <h2>Cadastrar Passagens</h2>
-      <p>The .table-hover class enables a hover state on table rows:</p>            
+      <p>* Atenção ao deletar você terá que cadastrar novamente</p>            
       <table class="table table-hover">
         <thead>
           <tr>
