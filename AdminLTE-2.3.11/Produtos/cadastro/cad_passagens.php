@@ -514,7 +514,8 @@ $host = "http://13.56.14.158";
     </section>
 
     <!-- Main content -->
-     <form action="index.html">
+     <div>
+        <form action="index.html">
     <div class="row">
       <div class="form-group col-md-4">
         <label for="exampleInputEmail1">Campo Um</label>
@@ -600,6 +601,8 @@ $host = "http://13.56.14.158";
   </div>
 
   </form>
+
+     </div>
 
     <!-- /.content -->
   </div>
