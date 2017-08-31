@@ -2,7 +2,7 @@
 
 require_once("vendor/autoload.php");
 include_once("Controller/login_usuario.php");
-include_once("Controller/cadastrar_produtos.php");
+#include_once("Controller/cadastrar_produtos.php");
 
 
 function rotas_home(){
@@ -50,7 +50,7 @@ function rotas_home(){
 
 		
 	});
-	
+
 
 	$app->get('/logout', function(){
 
