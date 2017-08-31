@@ -509,8 +509,7 @@ $host = "http://13.56.14.158";
       </h1>
       <p></p>
       <ol class="breadcrumb">
-        <a href="#" class="btn btn-danger">Salvar</a>
-        <a href="<?=$host?>/agvip/admin-te/passagens" class="btn btn-default btn-flat">Cancelar</a>
+        
       </ol>
     </section>
 
@@ -575,6 +574,8 @@ $host = "http://13.56.14.158";
         <input type="radio" id="ida-volta" name="opcao_destino"> - Ida e Volta
       </div>
   </div>
+  <button class="btn btn-danger">Salvar</button>
+  <a href="<?=$host?>/agvip/admin-te/passagens" class="btn btn-default btn-flat">Cancelar</a>
    
   <hr/>
 
