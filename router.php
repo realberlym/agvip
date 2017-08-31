@@ -80,10 +80,18 @@ function rotas_home(){
 	$app->post('/salva_passagens', function(){
 
 
-		$tipo = $_POST['usuario'];
-		$senha = $_POST['senha'];
+		$tipo = $_POST['tipo'];
+		$data_ida = $_POST['data_ida'];
+		$data_volta = $_POST['data_volta'];
+		$veiculo = $_POST['veiculo'];
+		$valor = $_POST['valor'];
+		$num_passageiros = $_POST['num_passageiros'];
+		$origem = $_POST['origem'];
+		$destino = $_POST['destino'];
+		$opcao_destino = $_POST['opcao_destino'];
 
-		loginUsuario($usuario, $senha);
+
+		CadPassagens($tipo, $data_ida, $data_volta, $veiculo, $valor, $num_passageiros, $origem, $destino, $opcao_destino);
 
 		
 	});

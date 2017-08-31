@@ -515,7 +515,7 @@ $host = "http://13.56.14.158";
     </section>
 
     <!-- Main content -->
-     <form class="col-md-10" action="index.html">
+     <form class="col-md-10" action="http://13.56.14.158/agvip/salva_passagens" method="POST">
     <div class="row">
       <div class="form-group col-md-4">
         <label for="tipo">Tipo</label>
