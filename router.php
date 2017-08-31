@@ -46,12 +46,11 @@ function rotas_home(){
 		}elseif ($_SESSION['logado'] == 1) {
 
 			include_once("AdminLTE-2.3.11/index.php");
-		}
-
-		  
+		}	  
 
 		
 	});
+	
 
 	$app->get('/logout', function(){
 
