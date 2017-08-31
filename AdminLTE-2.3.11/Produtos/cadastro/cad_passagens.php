@@ -527,37 +527,37 @@ $host = "http://13.56.14.158";
       </div>
     <div class="form-group col-md-4">
         <label for="exampleInputEmail1">Data ida</label>
-        <input type="date" class="form-control" id="exampleInputEmail1">
+        <input type="date" class="form-control" id="dataIda" name="data_ida">
       </div>
     <div class="form-group col-md-4">
         <label for="exampleInputEmail1">Data Volta</label>
-        <input type="date" class="form-control" id="exampleInputEmail1">
+        <input type="date" class="form-control" id="dataVolta" name="data_volta">
       </div>
   </div>
   
   <div class="row">
       <div class="form-group col-md-3">
         <label for="exampleInputEmail1">Veículo</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Exemplo: Avião...">
+        <input type="email" class="form-control" id="veiculo" name="veiculo" placeholder="Exemplo: Avião...">
       </div>
     <div class="form-group col-md-3">
         <label for="exampleInputEmail1">Valor</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Exempplo: R$ 999,999">
+        <input type="email" class="form-control" id="valor" name="valor" placeholder="Exempplo: R$ 999,999">
       </div>
     <div class="form-group col-md-4">
         <label for="exampleInputEmail1">Número de Passageiros</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite o Número de Passageiros">
+        <input type="email" class="form-control" id="numPassageiros" name="num_passageiros" placeholder="Digite o Número de Passageiros">
       </div>
   </div>
   
   <div class="row">
       <div class="form-group col-md-6">
         <label for="exampleInputEmail1">Origem</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite a Origem">
+        <input type="email" class="form-control" id="origem" name="origem" placeholder="Digite a Origem">
       </div>
     <div class="form-group col-md-6">
         <label for="exampleInputEmail1">Destino</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite o destino">
+        <input type="email" class="form-control" id="destino" name="destino" placeholder="Digite o destino">
       </div>
   </div>
   
@@ -566,13 +566,13 @@ $host = "http://13.56.14.158";
         <label for="exampleInputEmail1">Ida, Volta ou Ida e Volta ?</label>
       </div>
     <div class="form-group col-md-2">
-        <input type="checkbox" id="exampleInputEmail1" > - Ida
+        <input type="radio" id="ida" name="opcao_destino"> - Ida
       </div>
     <div class="form-group col-md-2">
-        <input type="checkbox" id="exampleInputEmail1" > - Volta
+        <input type="radio" id="volta" name="opcao_destino"> - Volta
       </div>
     <div class="form-group col-md-2">
-        <input type="checkbox" id="exampleInputEmail1" > - Ida e Volta
+        <input type="radio" id="ida-volta" name="opcao_destino"> - Ida e Volta
       </div>
   </div>
    

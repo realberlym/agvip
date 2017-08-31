@@ -2,6 +2,7 @@
 
 require_once("vendor/autoload.php");
 include_once("Controller/login_usuario.php");
+include_once("Controller/cadastrar_produtos.php");
 
 
 function rotas_home(){
@@ -69,6 +70,17 @@ function rotas_home(){
 
 
 		$usuario = $_POST['usuario'];
+		$senha = $_POST['senha'];
+
+		loginUsuario($usuario, $senha);
+
+		
+	});
+
+	$app->post('/salva_passagens', function(){
+
+
+		$tipo = $_POST['usuario'];
 		$senha = $_POST['senha'];
 
 		loginUsuario($usuario, $senha);
