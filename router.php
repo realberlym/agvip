@@ -90,7 +90,13 @@ function rotas_home(){
 		$opcao_destino = $_POST['opcao_destino'];
 
 
-		CadPassagens($tipo, $data_ida, $data_volta, $veiculo, $valor, $num_passageiros, $origem, $destino, $opcao_destino);
+		$resultado = CadPassagens($tipo, $data_ida, $data_volta, $veiculo, $valor, $num_passageiros, $origem, $destino, $opcao_destino);
+
+		if($resultado == true){
+
+			include_once("AdminLTE-2.3.11/Produtos/passagens.php");
+
+		}
 
 		
 	});

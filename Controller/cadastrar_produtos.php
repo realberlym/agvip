@@ -8,6 +8,11 @@ function CadPassagens($tipo, $data_ida, $data_volta, $veiculo, $valor, $num_pass
 
 	$resultado = Passagens($tipo, $data_ida, $data_volta, $veiculo, $valor, $num_passageiros, $origem, $destino, $opcao_destino);
 
-	var_dump($resultado);
+	if($resultado != true){
+
+		include_once("AdminLTE-2.3.11/Produtos/cadastro/cad_passagens.php");
+	}
+
+	return true;
 
 }
