@@ -116,7 +116,8 @@ function rotas_home(){
 		session_start();
 		
 		$_SESSION['logado'] = 0 ;
-		$_SESSION['cadastro'] = "";
+		setcookie('cadastro', '');
+		//$_SESSION['cadastro'] = "";
 
 		include_once("AdminLTE-2.3.11/Produtos/passagens.php");
 
