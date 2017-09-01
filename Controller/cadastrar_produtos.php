@@ -10,7 +10,7 @@ function CadPassagens($tipo, $data_ida, $data_volta, $veiculo, $valor, $num_pass
 
 	if($resultado != true){
 
-		include_once("AdminLTE-2.3.11/Produtos/cadastro/cad_passagens.php");
+		echo "Erro no Sistema: Falar com o Administrador ou Desenvolvedor";
 	}
 
 	return true;

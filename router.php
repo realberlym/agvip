@@ -94,7 +94,7 @@ function rotas_home(){
 
 		if($resultado == true){
 
-			include_once("AdminLTE-2.3.11/Produtos/passagens.php");
+			include_once("AdminLTE-2.3.11/Produtos/cadastro/cad_passagens.php");
 
 		}
 
