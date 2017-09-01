@@ -2,7 +2,7 @@
 
 $link = "http://13.56.14.158/agvip/AdminLTE-2.3.11/";
 $host = "http://13.56.14.158";
-session_start(); 
+
 
 ?>
 <!DOCTYPE html>
@@ -514,7 +514,12 @@ session_start();
     </section>
 
     <!-- Main content -->
-    <?=$_SESSION['cadastrado']?>
+    <?php 
+
+    session_start();
+    echo $_SESSION['cadastrado'];
+
+     ?>
      <form class="col-md-10" action="http://13.56.14.158/agvip/salva_passagens" method="POST">
     <div class="row">
       <div class="form-group col-md-4">
