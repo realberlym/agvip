@@ -565,13 +565,13 @@ $host = "http://13.56.14.158";
         <label for="exampleInputText">Ida, Volta ou Ida e Volta ?</label>
       </div>
     <div class="form-group col-md-2">
-        <input type="radio" id="ida" name="opcao_destino"> - Ida
+        <input type="radio" value="ida" name="opcao_destino"> - Ida
       </div>
     <div class="form-group col-md-2">
-        <input type="radio" id="volta" name="opcao_destino"> - Volta
+        <input type="radio" value="volta" name="opcao_destino"> - Volta
       </div>
     <div class="form-group col-md-2">
-        <input type="radio" id="ida-volta" name="opcao_destino"> - Ida e Volta
+        <input type="radio" value="ida-volta" name="opcao_destino"> - Ida e Volta
       </div>
   </div>
   <button class="btn btn-danger">Salvar</button>
