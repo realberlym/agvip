@@ -12,7 +12,7 @@ function Passagens($tipo, $data_ida, $data_volta, $veiculo, $valor, $num_passage
 		$mysql = new PDO(DB_TYPE.':host='.DB_HOST.';dbname='.DB_NAME.';charset=utf8', DB_USER, DB_PASSWORD);
 		$mysql->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 		$sql = "INSERT INTO Produtos (tipo, data_ida, data_volta, veiculo, valor, num_passageiros, origem, destino, opcao_destino)
-				VALUES($tipo, $data_ida, $data_volta, $veiculo, $valor, $num_passageiros, $origem, $destino, $opcao_destino)";
+				VALUES('$tipo', '$data_ida', '$data_volta', '$veiculo', '$valor', '$num_passageiros', '$origem', '$destino', '$opcao_destino')";
 
 				die($sql);
 		$stmt = $mysql->prepare($sql);
