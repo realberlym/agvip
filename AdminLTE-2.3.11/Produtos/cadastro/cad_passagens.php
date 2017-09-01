@@ -517,7 +517,7 @@ $host = "http://13.56.14.158";
      <form class="col-md-10" action="http://13.56.14.158/agvip/salva_passagens" method="POST">
     <div class="row">
       <div class="form-group col-md-4">
-        <label for="tipo">Tipo</label>
+        <label for="exampleInputText">Tipo</label>
         <select class="form-control" name="tipo">
           <option value="Aéreo">Aéreo</option>
           <option value="Terrestre">Terrestre</option>
@@ -525,44 +525,44 @@ $host = "http://13.56.14.158";
         </select>
       </div>
     <div class="form-group col-md-4">
-        <label for="exampleInputEmail1">Data ida</label>
+        <label for="exampleInputText">Data ida</label>
         <input type="date" class="form-control" id="dataIda" name="data_ida">
       </div>
     <div class="form-group col-md-4">
-        <label for="exampleInputEmail1">Data Volta</label>
+        <label for="exampleInputText">Data Volta</label>
         <input type="date" class="form-control" id="dataVolta" name="data_volta">
       </div>
   </div>
   
   <div class="row">
       <div class="form-group col-md-3">
-        <label for="exampleInputEmail1">Veículo</label>
+        <label for="exampleInputText">Veículo</label>
         <input type="email" class="form-control" id="veiculo" name="veiculo" placeholder="Exemplo: Avião...">
       </div>
     <div class="form-group col-md-3">
-        <label for="exampleInputEmail1">Valor</label>
-        <input type="email" class="form-control" id="valor" name="valor" placeholder="Exempplo: R$ 999,999">
+        <label for="exampleInputText">Valor</label>
+        <input type="text" class="form-control" id="valor" name="valor" placeholder="Exempplo: R$ 999,999">
       </div>
     <div class="form-group col-md-4">
-        <label for="exampleInputEmail1">Número de Passageiros</label>
-        <input type="email" class="form-control" id="numPassageiros" name="num_passageiros" placeholder="Digite o Número de Passageiros">
+        <label for="exampleInputText">Número de Passageiros</label>
+        <input type="text" class="form-control" id="numPassageiros" name="num_passageiros" placeholder="Digite o Número de Passageiros">
       </div>
   </div>
   
   <div class="row">
       <div class="form-group col-md-6">
-        <label for="exampleInputEmail1">Origem</label>
-        <input type="email" class="form-control" id="origem" name="origem" placeholder="Digite a Origem">
+        <label for="exampleInputText">Origem</label>
+        <input type="text" class="form-control" id="origem" name="origem" placeholder="Digite a Origem">
       </div>
     <div class="form-group col-md-6">
         <label for="exampleInputEmail1">Destino</label>
-        <input type="email" class="form-control" id="destino" name="destino" placeholder="Digite o destino">
+        <input type="text" class="form-control" id="destino" name="destino" placeholder="Digite o destino">
       </div>
   </div>
   
   <div class="row">
       <div class="form-group col-md-3">
-        <label for="exampleInputEmail1">Ida, Volta ou Ida e Volta ?</label>
+        <label for="exampleInputText">Ida, Volta ou Ida e Volta ?</label>
       </div>
     <div class="form-group col-md-2">
         <input type="radio" id="ida" name="opcao_destino"> - Ida
