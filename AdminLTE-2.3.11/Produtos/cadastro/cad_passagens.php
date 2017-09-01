@@ -517,8 +517,8 @@ $host = "http://13.56.14.158";
      <form class="col-md-10" action="http://13.56.14.158/agvip/salva_passagens" method="POST">
     <div class="row">
       <div class="form-group col-md-4">
-        <label for="tipo" name="tipo">Tipo</label>
-        <select class="form-control">
+        <label for="tipo">Tipo</label>
+        <select class="form-control" name="tipo">
           <option value="Aéreo">Aéreo</option>
           <option value="Terrestre">Terrestre</option>
           <option value="Marina">Marina</option>
