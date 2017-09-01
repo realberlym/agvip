@@ -514,12 +514,7 @@ $host = "http://13.56.14.158";
     </section>
 
     <!-- Main content -->
-    <?php 
-
-    session_start();
-    echo $_SESSION['cadastrado'];
-
-     ?>
+    <?=$_SESSION['cadastrado']?>
      <form class="col-md-10" action="http://13.56.14.158/agvip/salva_passagens" method="POST">
     <div class="row">
       <div class="form-group col-md-4">
