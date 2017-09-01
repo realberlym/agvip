@@ -14,7 +14,6 @@ function Passagens($tipo, $data_ida, $data_volta, $veiculo, $valor, $num_passage
 		$sql = "INSERT INTO Produtos (tipo, data_ida, data_volta, veiculo, valor, num_passageiros, origem, destino, opcao_destino)
 				VALUES('$tipo', '$data_ida', '$data_volta', '$veiculo', '$valor', '$num_passageiros', '$origem', '$destino', '$opcao_destino')";
 
-				die($sql);
 		$stmt = $mysql->prepare($sql);
 		$stmt->execute();
 
