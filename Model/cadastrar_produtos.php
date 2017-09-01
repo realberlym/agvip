@@ -6,7 +6,6 @@ require_once($root."agvip/config/config.inc.php");
 
 function Passagens($tipo, $data_ida, $data_volta, $veiculo, $valor, $num_passageiros, $origem, $destino, $opcao_destino){
 
-	die('Entrei aqui');
 
 	try{
 

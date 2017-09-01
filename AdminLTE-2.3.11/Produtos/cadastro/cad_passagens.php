@@ -541,11 +541,11 @@ $host = "http://13.56.14.158";
       </div>
     <div class="form-group col-md-3">
         <label for="exampleInputText">Valor</label>
-        <input type="text" class="form-control" id="valor" name="valor" placeholder="Exempplo: R$ 999,999">
+        <input type="number" class="form-control" id="valor" name="valor" placeholder="Exempplo: R$ 999,999">
       </div>
     <div class="form-group col-md-4">
         <label for="exampleInputText">Número de Passageiros</label>
-        <input type="text" class="form-control" id="numPassageiros" name="num_passageiros" placeholder="Digite o Número de Passageiros">
+        <input type="number" class="form-control" id="numPassageiros" name="num_passageiros" placeholder="Digite o Número de Passageiros">
       </div>
   </div>
   
