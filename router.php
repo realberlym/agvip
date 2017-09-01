@@ -96,10 +96,15 @@ function rotas_home(){
 		if($resultado == true){
 
 			include_once("AdminLTE-2.3.11/Produtos/cadastro/cad_passagens.php");
-			$_SESSION['cadastro'] = "<div class='alert alert-success'>
+
+			setcookie('cadastro', '<div class="alert alert-success">
+  										 <strong>Successo!</strong> Cadastro incluido.
+									   </div>', time() + 3);
+
+			/*$_SESSION['cadastro'] = "<div class='alert alert-success'>
   										 <strong>Successo!</strong> Cadastro incluido.
 									   </div>";
-
+				*/
 		}
 
 		

@@ -4,7 +4,7 @@ $link = "http://13.56.14.158/agvip/AdminLTE-2.3.11/";
 $host = "http://13.56.14.158";
 
 
-$teste = $_SESSION['cadastro'];
+//$teste = $_SESSION['cadastro'];
 
 ?>
 <!DOCTYPE html>
@@ -516,7 +516,7 @@ $teste = $_SESSION['cadastro'];
     </section>
 
     <!-- Main content -->
-    <?=$teste?>
+    <?=$_COOKIE["cadastro"]?>
      <form class="col-md-10" action="http://13.56.14.158/agvip/salva_passagens" method="POST">
     <div class="row">
       <div class="form-group col-md-4">
