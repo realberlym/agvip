@@ -78,6 +78,7 @@ function rotas_home(){
 
 	$app->post('/salva_passagens', function(){
 
+		session_start();
 
 		$tipo = $_POST['tipo'];
 		$data_ida = $_POST['data_ida'];
@@ -110,6 +111,7 @@ function rotas_home(){
 		session_start();
 		
 		$_SESSION['logado'] = 0 ;
+		$_SESSION['cadastro'] = "";
 
 		include_once("AdminLTE-2.3.11/Produtos/passagens.php");
 
